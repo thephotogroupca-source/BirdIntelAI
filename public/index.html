@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  >
+  <title>BirdIntelAI v1.1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="shell">
+
+  <header class="brand-header">
+    <div class="brand-wrap">
+      <img class="brand-logo" src="wkh-logo.png" alt="Wildlife Knowledge Hub">
+      <div class="brand-copy">
+        <h1 class="brand-name">Wildlife Knowledge Hub</h1>
+        <p class="brand-tagline">Real Wildlife. Real Experience. Trusted Knowledge.</p>
+        <div class="page-title-block">
+          <h2 class="page-title">Recent bird sightings</h2>
+          <p class="sub">Start with either a location or a bird.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="mode-card">
+    <div class="mode-card-top">
+      <div class="mode-label">Your search</div>
+      <button type="button" id="clearSearch" class="clear-button">Clear / New Search</button>
+    </div>
+
+    <div
+      class="mode-switch"
+      role="radiogroup"
+      aria-label="Search mode"
+    >
+      <button
+        type="button"
+        id="modeLocation"
+        class="mode-button active"
+        aria-pressed="true"
+      >
+        Location
+      </button>
+
+      <button
+        type="button"
+        id="modeBird"
+        class="mode-button"
+        aria-pressed="false"
+      >
+        Bird
+      </button>
+    </div>
+
+    <p id="modeHelp" class="mode-help">
+      Choose radius and recent period first, then select a country and location. Then search All Birds or choose a specific bird.
+    </p>
+  </section>
+
+  <form id="searchForm" autocomplete="off">
+
+    <section
+      id="locationSection"
+      class="card search-section"
+    >
+      <h2 class="section-title">Location</h2>
+
+      <div class="grid location-grid">
+
+        <label class="compact-field">
+          Radius
+          <select id="dist">
+            <option value="5">5 km</option>
+            <option value="10">10 km</option>
+            <option value="15" selected>15 km</option>
+            <option value="25">25 km</option>
+            <option value="50">50 km</option>
+          </select>
+        </label>
+
+        <label class="compact-field">
+          Recent period
+          <select id="back">
+            <option value="1">1 day</option>
+            <option value="7">7 days</option>
+            <option value="14">14 days</option>
+            <option value="30" selected>30 days</option>
+          </select>
+        </label>
+
+        <div class="field autocomplete country-field">
+          <label for="countryInput">
+            Country <span>*</span>
+          </label>
+
+          <input
+            id="countryInput"
+            type="text"
+            placeholder="e.g. Canada, Costa Rica, India"
+          >
+
+          <div
+            id="countrySuggestions"
+            class="suggestions hidden"
+          ></div>
+
+          <div
+            id="countrySelected"
+            class="selected"
+          ></div>
+        </div>
+
+        <div class="field autocomplete location-field">
+          <label for="locationInput">
+            Location / hotspot <span>*</span>
+          </label>
+
+          <input
+            id="locationInput"
+            type="text"
+            placeholder="Select country first"
+            disabled
+          >
+
+          <div
+            id="locationSuggestions"
+            class="suggestions hidden"
+          ></div>
+
+          <div
+            id="locationSelected"
+            class="selected"
+          ></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section
+      id="birdSection"
+      class="card search-section"
+    >
+      <h2 class="section-title">Bird</h2>
+
+      <div
+        id="locationBirdChoice"
+        class="bird-choice"
+      >
+        <label class="choice-option">
+          <input
+            type="radio"
+            name="locationBirdMode"
+            value="all"
+            checked
+          >
+          <span>
+            <strong>All Birds</strong>
+            <small>
+              Show all bird species reported in the selected area and period.
+            </small>
+          </span>
+        </label>
+
+        <label class="choice-option">
+          <input
+            type="radio"
+            name="locationBirdMode"
+            value="specific"
+          >
+          <span>
+            <strong>Select Bird / Bird Group</strong>
+            <small>
+              Search one species or a broad group such as All Hummingbirds, All Tanagers, All Eagles, All Storks, or All Flamingos.
+            </small>
+          </span>
+        </label>
+      </div>
+
+      <div class="bird-row">
+        <div class="field autocomplete bird-field">
+          <label for="birdInput">
+            Bird species or group
+            <span id="birdRequiredMark"></span>
+          </label>
+
+          <input
+            id="birdInput"
+            type="text"
+            placeholder="All Birds selected"
+            disabled
+          >
+
+          <div
+            id="birdSuggestions"
+            class="suggestions hidden"
+          ></div>
+
+          <div
+            id="birdSelected"
+            class="selected"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="action-row">
+      <button
+        type="submit"
+        class="primary-button"
+      >
+        Get sightings
+      </button>
+
+      <p id="mandatoryText" class="mandatory">
+        * Country and location are mandatory. Bird is optional when All Birds is selected.
+      </p>
+    </section>
+
+  </form>
+
+  <section class="card">
+    <div class="result-head">
+      <h2>Results</h2>
+      <span id="status">Ready</span>
+    </div>
+
+    <div id="summary" class="summary"></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Bird</th>
+            <th>Date and time</th>
+            <th>Count</th>
+            <th>Location</th>
+            <th>Private</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    Bird data and hotspots: eBird.
+    Geographic area search: © OpenStreetMap contributors.
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
