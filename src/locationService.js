@@ -1,7 +1,8 @@
 let lastNominatimRequestAt = 0;
 
 const hotspotCache = new Map();
-const HOTSPOT_CACHE_MS = 6 * 60 * 60 * 1000;
+const hotspotInFlight = new Map();
+const HOTSPOT_CACHE_MS = 24 * 60 * 60 * 1000;
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -70,7 +71,7 @@ const COUNTRIES = [
 
 function searchCountries(query) {
   const q = normalize(query);
-  if (!q) return [];
+  if (!q) return COUNTRIES.map((country) => ({ ...country }));
 
   return COUNTRIES
     .map((country) => {
@@ -144,27 +145,41 @@ async function loadCountryHotspots({ countryCode, apiKey }) {
     return cached.rows;
   }
 
-  const url = new URL(
-    `https://api.ebird.org/v2/ref/hotspot/${encodeURIComponent(code)}`
-  );
-  url.searchParams.set("fmt", "json");
+  if (hotspotInFlight.has(code)) {
+    return hotspotInFlight.get(code);
+  }
 
-  const response = await fetch(url, {
-    headers: {
-      "X-eBirdApiToken": apiKey
+  const request = (async () => {
+    const url = new URL(
+      `https://api.ebird.org/v2/ref/hotspot/${encodeURIComponent(code)}`
+    );
+    url.searchParams.set("fmt", "json");
+
+    const response = await fetch(url, {
+      headers: {
+        "X-eBirdApiToken": apiKey
+      }
+    });
+
+    // Hotspot autocomplete is optional. If eBird rate-limits this endpoint,
+    // return the last cached copy when available rather than slowing or
+    // breaking the user's location field.
+    if (!response.ok) {
+      return cached?.rows || [];
     }
-  });
 
-  if (!response.ok) return [];
+    const rows = await response.json();
 
-  const rows = await response.json();
+    hotspotCache.set(code, {
+      at: Date.now(),
+      rows
+    });
 
-  hotspotCache.set(code, {
-    at: Date.now(),
-    rows
-  });
+    return rows;
+  })().finally(() => hotspotInFlight.delete(code));
 
-  return rows;
+  hotspotInFlight.set(code, request);
+  return request;
 }
 
 async function searchPlaces({
@@ -172,12 +187,25 @@ async function searchPlaces({
   countryCode,
   userAgent,
   apiKey,
-  allowedHotspotIds = null
+  allowedHotspotIds = null,
+  knownHotspots = null
 }) {
   const q = String(query || "").trim();
   const country = String(countryCode || "").trim().toLowerCase();
 
   if (q.length < 2 || !country) return [];
+
+  const hotspotPromise = Array.isArray(knownHotspots)
+    ? Promise.resolve(knownHotspots.map((row) => ({
+        locName: row.name,
+        lat: row.lat,
+        lng: row.lng,
+        locId: row.locationId || ""
+      })))
+    : loadCountryHotspots({
+        countryCode: country,
+        apiKey
+      });
 
   const [geoRows, hotspotRows] = await Promise.all([
     nominatimSearch(
@@ -188,10 +216,7 @@ async function searchPlaces({
       },
       userAgent
     ),
-    loadCountryHotspots({
-      countryCode: country,
-      apiKey
-    })
+    hotspotPromise
   ]);
 
   const nq = normalize(q);

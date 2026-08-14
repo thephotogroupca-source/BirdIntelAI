@@ -54,3 +54,21 @@ Recent period: **30 days**
 6. Open `http://localhost:3001`.
 
 `.env` is intentionally excluded from the ZIP.
+
+
+## v3.0 test
+Bird names in results are clickable. The species view now uses the existing Wildlife Knowledge Hub Ask backend for the text profile and Wikimedia Commons for an openly licensed image when available. Bird Intel AI does not require its own OpenAI API key. The official eBird species link remains available.
+
+
+## Firmware 2.7 Snowcap profile test
+
+The profile text is requested server-to-server from `WKH_ASK_API_URL`, which defaults to `https://ask.wildlifeknowledgehub.com/api/chat`. This reuses the existing WKH Ask OpenAI connection and knowledge workflow. The image lookup remains separate and uses Wikimedia Commons licensing metadata.
+
+
+## v3.0.1 fixes
+- Results chat sends a compact Bird Intel context to WKH Ask to avoid rejected oversized/complex requests.
+- The “Ask WKH about this bird” button appears only after the automatic bird profile has finished loading.
+
+
+## v3.0 video handoff
+Bird profile chat remains focused on species questions. Video, YouTube, footage, watch, and clip requests are handled locally and are not sent to the lightweight Bird Intel chat API. The user is gently offered Yes/No controls to open the full WKH Ask experience at https://ask.wildlifeknowledgehub.com/. Choosing No keeps the user on the bird profile and invites another species question.

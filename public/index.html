@@ -6,7 +6,7 @@
     name="viewport"
     content="width=device-width,initial-scale=1"
   >
-  <title>BirdIntelAI v1.1</title>
+  <title>WKH Bird Intel AI</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,10 +18,15 @@
       <div class="brand-copy">
         <h1 class="brand-name">Wildlife Knowledge Hub</h1>
         <p class="brand-tagline">Real Wildlife. Real Experience. Trusted Knowledge.</p>
-        <div class="page-title-block">
-          <h2 class="page-title">Recent bird sightings</h2>
-          <p class="sub">Start with either a location or a bird.</p>
-        </div>
+      </div>
+    </div>
+
+    <div class="product-identity">
+      <img class="product-title-image" src="bird-intel-title.png" alt="WKH Bird Intel AI">
+      <img class="owl-sketch" src="owl-sketch-final.png" alt="Flying owl light sketch">
+      <div class="page-title-block">
+        <h2 class="page-title">Recent bird sightings</h2>
+        <p class="sub">Start with either a location or a bird.</p>
       </div>
     </div>
   </header>
@@ -209,11 +214,16 @@
 
     <section class="action-row">
       <button
+        id="getSightingsButton"
         type="submit"
         class="primary-button"
       >
         Get sightings
       </button>
+
+      <p id="groupSearchNotice" class="group-search-notice" hidden>
+        Group searches may take a little longer because Bird Intel is checking multiple matching species.
+      </p>
 
       <p id="mandatoryText" class="mandatory">
         * Country and location are mandatory. Bird is optional when All Birds is selected.
@@ -230,14 +240,36 @@
 
     <div id="summary" class="summary"></div>
 
+    <div id="resultTools" class="result-tools hidden">
+      <label>
+        Filter bird
+        <select id="filterBird"><option value="">All Birds</option></select>
+      </label>
+      <label>
+        Filter location
+        <select id="filterLocation"><option value="">All Locations</option></select>
+      </label>
+      <label>
+        Filter private
+        <select id="filterPrivate"><option value="">All</option><option value="no">No</option><option value="yes">Yes</option></select>
+      </label>
+      <button type="button" id="clearFilters" class="clear-button">Clear Filters</button>
+      <button type="button" id="downloadCsv" class="primary-button">Download CSV</button>
+    </div>
+    <div id="filteredSummary" class="filtered-summary"></div>
+
+    <div id="birdProfileHint" class="ask-wkh-bar hidden">
+      <span><strong>Want to know more?</strong> Click any bird name below to view its photo, species profile and ask WKH questions about that bird.</span>
+    </div>
+
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th>Bird</th>
-            <th>Date and time</th>
-            <th>Count</th>
-            <th>Location</th>
+            <th><button type="button" class="sort-button" data-sort="commonName">Bird <span></span></button></th>
+            <th><button type="button" class="sort-button" data-sort="dateTime">Date and time <span></span></button></th>
+            <th><button type="button" class="sort-button" data-sort="count">Count <span></span></button></th>
+            <th><button type="button" class="sort-button" data-sort="locationName">Location <span></span></button></th>
             <th>Private</th>
           </tr>
         </thead>
@@ -248,7 +280,8 @@
 
   <footer>
     Bird data and hotspots: eBird.
-    Geographic area search: © OpenStreetMap contributors.
+    Geographic area search: © OpenStreetMap contributors.<br>
+    Firmware: BirdIntelAI_V11.7
   </footer>
 
 </main>

@@ -37,15 +37,74 @@ function clampNumber(value, min, max, fallback) {
     : fallback;
 }
 
+const EBIRD_MIN_INTERVAL_MS = Math.max(200, Number(process.env.EBIRD_MIN_INTERVAL_MS || 250));
+const EBIRD_MAX_RETRIES = Math.max(0, Number(process.env.EBIRD_MAX_RETRIES || 1));
+let ebirdQueue = Promise.resolve();
+let lastEbirdRequestAt = 0;
+let ebirdCooldownUntil = 0;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function waitForEbirdTurn() {
+  const previous = ebirdQueue;
+  let release;
+  ebirdQueue = new Promise((resolve) => { release = resolve; });
+
+  await previous;
+  const intervalWaitMs = Math.max(0, EBIRD_MIN_INTERVAL_MS - (Date.now() - lastEbirdRequestAt));
+  const cooldownWaitMs = Math.max(0, ebirdCooldownUntil - Date.now());
+  const waitMs = Math.max(intervalWaitMs, cooldownWaitMs);
+  if (waitMs) await sleep(waitMs);
+  lastEbirdRequestAt = Date.now();
+  release();
+}
+
+function retryDelayMs(response, attempt) {
+  const retryAfter = response.headers.get("retry-after");
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds) && seconds >= 0) return Math.max(1000, seconds * 1000);
+
+    const retryAt = Date.parse(retryAfter);
+    if (Number.isFinite(retryAt)) return Math.max(1000, retryAt - Date.now());
+  }
+
+  return Math.min(10000, 1500 * (2 ** attempt));
+}
+
 async function fetchEbird(url, apiKey) {
   requireKey(apiKey);
 
-  const response = await fetch(url, {
-    headers: { "X-eBirdApiToken": apiKey }
-  });
+  for (let attempt = 0; attempt <= EBIRD_MAX_RETRIES; attempt += 1) {
+    await waitForEbirdTurn();
 
-  if (!response.ok) {
+    const response = await fetch(url, {
+      headers: { "X-eBirdApiToken": apiKey }
+    });
+
+    if (response.ok) return response.json();
+
     const body = await response.text();
+
+    if ((response.status === 429 || response.status === 503) && attempt < EBIRD_MAX_RETRIES) {
+      const waitMs = retryDelayMs(response, attempt);
+      if (response.status === 429) {
+        ebirdCooldownUntil = Math.max(ebirdCooldownUntil, Date.now() + waitMs);
+      }
+      console.warn(
+        `eBird API ${response.status}; retrying in ${waitMs} ms (${attempt + 1}/${EBIRD_MAX_RETRIES})`
+      );
+      await sleep(waitMs);
+      continue;
+    }
+
+    if (response.status === 429) {
+      const waitMs = retryDelayMs(response, attempt);
+      ebirdCooldownUntil = Math.max(ebirdCooldownUntil, Date.now() + waitMs);
+    }
+
     const error = new Error(
       `eBird API returned ${response.status}. ${body.slice(0, 300)}`
     );
@@ -53,7 +112,9 @@ async function fetchEbird(url, apiKey) {
     throw error;
   }
 
-  return response.json();
+  const error = new Error("eBird API request failed after retries.");
+  error.status = 503;
+  throw error;
 }
 
 async function loadTaxonomy(apiKey) {
@@ -419,6 +480,11 @@ async function countrySupportsSelection({
   apiKey
 }) {
   try {
+    // If eBird has just rate-limited us, do not keep probing every country.
+    // Keep the user's matching country choices visible temporarily rather than
+    // falsely reporting that the selected bird occurs in no matching country.
+    if (Date.now() < ebirdCooldownUntil) return true;
+
     const countryCodes = await getCountrySpeciesCodes({
       countryCode,
       apiKey
@@ -440,8 +506,11 @@ async function countrySupportsSelection({
       error.message
     );
 
-    // Keep autocomplete usable if an availability check temporarily fails.
-    return true;
+    // A temporary rate limit must not be interpreted as "bird absent".
+    // During 429/503 conditions, keep the matching country candidate visible.
+    if (error.status === 429 || error.status === 503) return true;
+
+    return false;
   }
 }
 
@@ -484,6 +553,10 @@ async function selectionHasRecentSightingsNear({
   back = 30,
   apiKey
 }) {
+  // During an active eBird 429 cooldown, do not make autocomplete wait.
+  // The final Get Sightings request remains authoritative.
+  if (Date.now() < ebirdCooldownUntil) return true;
+
   if (kind === "group") {
     const rows = await getRecentGroupPresenceSightings({
       groupKey, lat, lng, dist, back, apiKey
@@ -576,6 +649,45 @@ async function getRecentLocationIdsForSelection({
   });
 
   return new Set(rows.map((row) => row.locId).filter(Boolean));
+}
+
+
+async function getRecentPlacesForSelection({
+  countryCode,
+  kind,
+  speciesCode,
+  groupKey,
+  back = 30,
+  apiKey
+}) {
+  const rows = await getCountryRecentRows({
+    countryCode,
+    kind,
+    speciesCode,
+    groupKey,
+    back,
+    apiKey
+  });
+
+  const seen = new Set();
+  return rows
+    .map((row) => ({
+      name: row.locName || "eBird location",
+      lat: Number(row.lat),
+      lng: Number(row.lng),
+      type: row.locId ? "eBird location / hotspot" : "eBird location",
+      source: "eBird",
+      locationId: row.locId || "",
+      category: "hotspot"
+    }))
+    .filter((row) => {
+      if (!Number.isFinite(row.lat) || !Number.isFinite(row.lng)) return false;
+      const key = row.locationId || `${row.name}|${row.lat.toFixed(4)}|${row.lng.toFixed(4)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 function mapObservation(row) {
@@ -758,10 +870,12 @@ async function getRecentGroupSightings({
   // Then retrieve the species-specific nearby observations for each species.
   // Those calls return the recent sighting locations for that species, so a
   // group such as All Toucans is no longer limited to one record per species.
-  // A small concurrency limit avoids creating a large burst of eBird calls.
+  // Run species calls one at a time. The eBird API is intentionally a
+  // limited recent-data service, so serial calls plus the global request
+  // throttle prevent broad groups from triggering 429 responses.
   const batches = await mapWithConcurrency(
     localSpeciesCodes,
-    5,
+    1,
     (speciesCode) =>
       getRecentSpeciesSightings({
         speciesCode,
@@ -806,5 +920,6 @@ module.exports = {
   countrySupportsSelection,
   countryHasRecentSelection,
   selectionHasRecentSightingsNear,
-  getRecentLocationIdsForSelection
+  getRecentLocationIdsForSelection,
+  getRecentPlacesForSelection
 };
