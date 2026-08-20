@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The White-winged Crossbill is a seed-eating songbird with a conical bill and active flocking habits. Field recognition often comes from crossed bill tips used to open conifer cones. It is found around conifers, mixed woodland, shrubby edge, weedy fields, gardens, feeders, berry patches, and seed-rich areas. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The White-winged Crossbill (Loxia leucoptera) belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for crossed bill tips used to open conifer cones. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It follows seed, cone, bud, and berry resources across forests, open woodland, gardens, and edge habitats. In Canada, many finches are seasonal or irruptive, changing abundance with food supply.",
+    "migrationStatus": "Often variable and sometimes irruptive. Movements can depend more on cone, seed, and berry crops than on a fixed route.",
+    "breeding": "It usually builds a cup nest in a tree, shrub, or sheltered vegetation. Breeding can begin when food is abundant, and some northern finches nest early or irregularly in response to cone crops.",
+    "dietFeeding": "It eats seeds, buds, berries, and small insects. During breeding, insects can be important for nestlings. Bill shape is closely tied to seed handling, cone feeding, or cracking larger seeds.",
+    "behavior": "It is often seen in pairs or flocks, especially outside breeding season. Flocks give frequent contact calls and may move quickly between productive trees, feeders, or weedy fields.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Ruffed Grouse is a ground-dwelling gamebird with strong legs and cryptic or ornamental plumage. Field recognition often comes from plump body, cryptic bars, and explosive flush. It is found in forest, shrubland, grass, plantations, ornamental landscapes, or edge cover depending on region and habitat. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Ruffed Grouse (Bonasa umbellus) belongs to the family Pheasants, Grouse, and Allies in the order Galliformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for plump body, cryptic bars, and explosive flush. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It is associated with ground-level cover such as forest, shrubland, grass, plantations, or introduced ornamental landscapes. In Canada, occurrence can be native, introduced, local, or escape-related depending on region and habitat.",
+    "migrationStatus": "Mostly resident or local, with seasonal movements tied to food, cover, and snow conditions.",
+    "breeding": "It nests on the ground in concealed vegetation. Females usually incubate and lead precocial chicks that can move soon after hatching. Cover and insect food are important for broods.",
+    "dietFeeding": "It feeds on buds, leaves, seeds, berries, insects, and other plant material. Chicks rely heavily on insects early in life, while adults shift to tougher plant foods in colder months.",
+    "behavior": "It is mostly ground-dwelling and secretive, relying on camouflage and sudden flight. Males may use drumming, displays, or bright plumage depending on region and habitat.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

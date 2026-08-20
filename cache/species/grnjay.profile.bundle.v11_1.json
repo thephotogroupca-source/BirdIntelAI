@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Green Jay (Cyanocorax yncas) is a jay recorded in the United States. Field recognition often comes from green body, blue and black head pattern, yellowish undertail, and noisy social behavior. In the U.S. source data, it appeared in 1 state or DC summaries, including TX. It is most associated with Forests:  Tropical Lowland Evergreen, and local season should be checked before trip planning.",
+    "classification": "The Green Jay belongs to the family Crows, Jays, and Magpies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for green body, blue and black head pattern, yellowish undertail, and noisy social behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: TX. It is most often linked with Forests:  Tropical Lowland Evergreen. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Lowland Evergreen, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It is omnivorous, eating insects, acorns, seeds, fruit, eggs, nestlings, and human-associated food where available. It forages in trees and on the ground and may store food for later use.",
+    "behavior": "It is intelligent, social, and vocal. Many jays move in family groups, post sentinels, cache food, and quickly respond to predators or unusual activity.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Boat-tailed Grackle (Quiscalus major) is a blackbird recorded in the United States. Field recognition often comes from large glossy blackbird, very long tail, heavy bill, and inflated display posture in males. In the U.S. source data, it appeared in 13 state or DC summaries, including AL, DE, FL, GA, LA, MD, MS, NC, NJ, NY, SC, TX, VA. It is most associated with Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh, and local season should be checked before trip planning.",
+    "classification": "The Boat-tailed Grackle belongs to the family Troupials and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for large glossy blackbird, very long tail, heavy bill, and inflated display posture in males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 13 state or DC summary files: AL, DE, FL, GA, LA, MD, MS, NC, NJ, NY, SC, TX, VA. It is most often linked with Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It eats insects, seeds, grain, and other plant material, with diet changing by season. It often feeds on the ground or in marsh vegetation and may gather in flocks outside the breeding season.",
+    "behavior": "It is social and vocal, with males often using exposed display perches. Many species nest in colonies or loose groups and gather in flocks outside breeding season.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

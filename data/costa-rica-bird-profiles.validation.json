@@ -1,0 +1,35 @@
+{
+  "validatedAt": "2026-08-14T20:16:25.023Z",
+  "expectedSpecies": 950,
+  "uniqueSpeciesCodes": 950,
+  "validProfiles": 950,
+  "failedProfiles": 0,
+  "emptySections": {
+    "overview": 0,
+    "classification": 0,
+    "identification": 0,
+    "rangeHabitat": 0,
+    "migrationStatus": 0,
+    "breeding": 0,
+    "dietFeeding": 0,
+    "behavior": 0
+  },
+  "rangeWithoutCostaRicaCount": 0,
+  "rangeWithoutCostaRica": [],
+  "duplicateOverviewCount": 0,
+  "duplicateOverviews": [],
+  "database": {
+    "availableProfiles": 950,
+    "missingProfiles": 0
+  },
+  "conservationStatusCounts": {
+    "Least Concern": 871,
+    "Near Threatened": 38,
+    "Vulnerable": 29,
+    "Critically Endangered": 5,
+    "Endangered": 4,
+    "Not Evaluated": 2,
+    "Data Deficient": 1
+  },
+  "errors": []
+}

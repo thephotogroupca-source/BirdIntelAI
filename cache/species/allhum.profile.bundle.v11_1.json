@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Allen's Hummingbird (Selasphorus sasin) is a hummingbird recorded in the United States. Field recognition often comes from small compact hummingbird shape, male's orange-red gorget, green back, and warm rufous flanks and tail tones. In the U.S. source data, it appeared in 2 state or DC summaries, including CA, OR. It is most associated with Aridlands:  Chaparral, and local season should be checked before trip planning.",
+    "classification": "The Allen's Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for small compact hummingbird shape, male's orange-red gorget, green back, and warm rufous flanks and tail tones. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CA, OR. It is most often linked with Aridlands:  Chaparral. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+    "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Aridlands:  Chaparral can be important.",
+    "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+    "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

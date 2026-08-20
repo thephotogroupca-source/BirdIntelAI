@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Hoary Redpoll (Acanthis hornemanni) is a finch recorded in the United States. Field recognition often comes from frosty pale redpoll appearance, small bill, pale rump, and lightly streaked underparts. In the U.S. source data, it appeared in 4 state or DC summaries, including AK, MI, MN, ND. It is most associated with Tundra:  Arctic, and local season should be checked before trip planning.",
+    "classification": "The Hoary Redpoll belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for frosty pale redpoll appearance, small bill, pale rump, and lightly streaked underparts. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 4 state or DC summary files: AK, MI, MN, ND. It is most often linked with Tundra:  Arctic. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Tundra:  Arctic, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It feeds mainly on seeds, buds, and small fruits, and may take insects during breeding. It uses its specialized bill to handle seeds and often moves in small flocks.",
+    "behavior": "It often moves in flocks and follows food supplies. Flight calls, bill shape, and feeding plants are useful clues, especially in winter or nomadic species.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

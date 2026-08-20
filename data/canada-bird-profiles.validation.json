@@ -1,0 +1,25 @@
+{
+  "validatedAt": "2026-08-19T00:00:00.000-04:00",
+  "appendMode": true,
+  "existingCostaRicaProfilesPreserved": 950,
+  "approvedCanadaSpecies": 108,
+  "newCacheProfileBundles": 108,
+  "newDataProfiles": 108,
+  "overwrites": 0,
+  "emptySections": {
+    "overview": 0,
+    "classification": 0,
+    "identification": 0,
+    "rangeHabitat": 0,
+    "migrationStatus": 0,
+    "breeding": 0,
+    "dietFeeding": 0,
+    "behavior": 0
+  },
+  "emptySectionDetails": [],
+  "errors": [],
+  "notes": [
+    "Existing zip entries were copied unchanged, then new Canada files were appended.",
+    "Profiles are local draft cache entries generated without external API calls. Naturalist review is recommended before public launch."
+  ]
+}

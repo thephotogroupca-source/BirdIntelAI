@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The White-breasted Nuthatch is a compact bark-foraging bird that often climbs headfirst down trunks. Field recognition often comes from short tail, straight bill, and headfirst trunk climbing. It is found in mature coniferous, deciduous, or mixed woodland, wooded yards, parks, and feeder areas. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The White-breasted Nuthatch (Sitta carolinensis) belongs to the family Nuthatches in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for short tail, straight bill, and headfirst trunk climbing. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses forests, mature trees, parks, and wooded yards. In Canada, nuthatches can be resident, seasonal, or locally irruptive depending on food supply and region.",
+    "migrationStatus": "Mostly resident to short-distance seasonal, with some wandering in poor cone or seed years.",
+    "breeding": "It nests in cavities or nest boxes and lines the nest with soft material. Mature trees and standing dead wood provide important nesting and feeding sites.",
+    "dietFeeding": "It eats insects, spiders, seeds, and nuts. It probes bark crevices, wedges food into cracks, and may cache seeds for later use.",
+    "behavior": "It climbs with agile movements, often headfirst down bark. It gives nasal calls and may join mixed winter flocks with chickadees and woodpeckers.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

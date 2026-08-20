@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Olive Warbler (Peucedramus taeniatus) is a warbler recorded in the United States. Field recognition often comes from olive-gray body, orange-brown head in adults, white wing patches, and deliberate movement in pine or oak-pine trees. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+    "classification": "The Olive Warbler belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for olive-gray body, orange-brown head in adults, white wing patches, and deliberate movement in pine or oak-pine trees. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding usually involves a small cup nest placed in vegetation, shrubs, low trees, or woodland cover depending on the species. Insect abundance is important for raising young. In the United States, timing and habitat use vary by region, especially around Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak.",
+    "dietFeeding": "It feeds mainly on insects and spiders, taken from leaves, twigs, flowers, and bark. During migration or winter it may also take some berries or nectar when available.",
+    "behavior": "It is active and often restless, moving through foliage while gleaning insects. Songs and call notes are important for detection, especially during breeding or migration.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

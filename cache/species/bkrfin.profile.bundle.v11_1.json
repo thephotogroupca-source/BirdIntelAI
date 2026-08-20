@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Black Rosy-Finch (Leucosticte atrata) is a finch recorded in the United States. Field recognition often comes from dark rosy-finch body, blackish tones, pink wing and belly highlights, and high-elevation flocking behavior. In the U.S. source data, it appeared in 9 state or DC summaries, including AZ, CO, ID, MT, NM, NV, OR, UT, WY. It is most associated with Tundra:  Alpine, and local season should be checked before trip planning.",
+    "classification": "The Black Rosy-Finch belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for dark rosy-finch body, blackish tones, pink wing and belly highlights, and high-elevation flocking behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 9 state or DC summary files: AZ, CO, ID, MT, NM, NV, OR, UT, WY. It is most often linked with Tundra:  Alpine. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Tundra:  Alpine, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It feeds mainly on seeds, buds, and small fruits, and may take insects during breeding. It uses its specialized bill to handle seeds and often moves in small flocks.",
+    "behavior": "It often moves in flocks and follows food supplies. Flight calls, bill shape, and feeding plants are useful clues, especially in winter or nomadic species.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

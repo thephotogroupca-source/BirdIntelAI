@@ -1,0 +1,19 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Evening Grosbeak is a colorful seed-eating songbird with a strong conical bill. Field recognition often comes from large conical bill and bold seasonal plumage. It is found in thickets, forest edge, open woodland, shrubby fields, gardens, parks, and feeder areas. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Evening Grosbeak (Hesperiphona vespertina) belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for large conical bill and bold seasonal plumage. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It occurs in open or semi-open habitats such as woodland edge, shrubs, gardens, riparian growth, and brushy fields. In Canada, occurrence is regional and should be checked by province and season.",
+    "migrationStatus": "Generally resident to short-distance migratory in the warmer parts of its range, while some related buntings and grosbeaks are strongly migratory.",
+    "breeding": "It usually builds a cup nest in shrubs, saplings, vines, or low trees. Breeding is timed to spring and summer food availability. Adults feed nestlings many insects even when seeds and fruit are important at other seasons.",
+    "dietFeeding": "It eats seeds, berries, buds, and insects. The heavy bill is useful for cracking seeds, while soft fruit and insects become more important during breeding and migration.",
+    "behavior": "It is often detected by song, sharp calls, and movements through shrubs or tree edges. Males often sing from visible perches, while both sexes may defend territories during breeding.",
+    "conservation": {
+      "status": "Vulnerable",
+      "populationTrend": "Decreasing in many parts of its range, with forest condition, disease, and food supply often discussed as concerns.",
+      "threats": "Threats vary by region but may include habitat loss, disturbance, climate pressure, contaminants, collisions, and changes in prey or food supply.",
+      "howToHelp": "Protect habitat, reduce disturbance near nests and colonies, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+    }
+  }
+}

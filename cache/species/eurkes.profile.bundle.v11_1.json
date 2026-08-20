@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Eurasian Kestrel is a fast predatory bird with pointed wings, a hooked bill, and agile hunting flight. Field recognition often comes from small falcon shape, pointed wings, tail pumping, and hovering hunt. It is found over open country, tundra, cliffs, grassland, farmland, coastlines, and urban ledges depending on region and habitat. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Eurasian Kestrel (Falco tinnunculus) belongs to the family Falcons and Caracaras in the order Falconiformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for small falcon shape, pointed wings, tail pumping, and hovering hunt. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It occurs where open hunting space and suitable nest sites are available. In Canada, falcons can be local breeders, migrants, winter visitors, or rare visitors depending on region and habitat and region.",
+    "migrationStatus": "Resident, migratory, or partially migratory depending on region, prey, age, and winter severity.",
+    "breeding": "It nests on cliffs, ledges, tree cavities, old nests, or open structures depending on region and habitat. Falcons do not build elaborate nests. Breeding success depends heavily on prey supply and low disturbance near nest sites.",
+    "dietFeeding": "It catches birds, mammals, or large insects depending on size and habitat. Hunting style can include hovering, fast pursuit, stooping, or direct chases across open terrain.",
+    "behavior": "It often watches from exposed perches or hunts in strong, direct flight. Territorial adults can be vocal near nest sites. Flight shape and hunting style are often the best field clues.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

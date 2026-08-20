@@ -1,0 +1,19 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Snowy Owl is a mostly nocturnal raptor with a rounded head, forward-facing eyes, strong talons, and quiet flight. Field recognition often comes from facial disk, forward-facing eyes, cryptic plumage, and quiet flight. It is found in forests, boreal woods, wetlands, open country, tundra, mountains, or old-growth habitats depending on region and habitat. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Snowy Owl (Bubo scandiacus) belongs to the family Owls in the order Strigiformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for facial disk, forward-facing eyes, cryptic plumage, and quiet flight. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It occurs where cover and prey are suitable, from boreal forest and mature woodland to marshes, open country, tundra, or mountain forests. In Canada, some owls are resident while others are nomadic or winter visitors.",
+    "migrationStatus": "Often resident or partly nomadic. Northern species may move south in winter when prey conditions change.",
+    "breeding": "It nests in cavities, old stick nests, broken trees, ledges, ground sites, or sheltered forest structures depending on region and habitat. Many begin breeding early, and clutch size can follow prey supply.",
+    "dietFeeding": "It eats rodents, birds, insects, amphibians, or other small animals depending on size and habitat. Many hunt by sound from a perch or low flight.",
+    "behavior": "It relies on camouflage, patient perching, and excellent hearing. Some species hunt by day, especially in northern habitats. Calls are often the best clue to presence.",
+    "conservation": {
+      "status": "Vulnerable",
+      "populationTrend": "Population estimates and trends are uncertain, but the species is treated as a global conservation concern.",
+      "threats": "Threats vary by region but may include habitat loss, disturbance, climate pressure, contaminants, collisions, and changes in prey or food supply.",
+      "howToHelp": "Protect habitat, reduce disturbance near nests and colonies, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+    }
+  }
+}

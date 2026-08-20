@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Golden Eagle is a large predatory bird with broad wings, a hooked bill, and powerful talons. Field recognition often comes from large dark body, golden nape, long wings, and powerful soaring flight. It is found near forests, cliffs, wetlands, grasslands, tundra, open country, shorelines, or large water bodies depending on region and habitat. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Golden Eagle (Aquila chrysaetos) belongs to the family Hawks, Eagles, and Kites in the order Accipitriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for large dark body, golden nape, long wings, and powerful soaring flight. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses hunting habitats that match its prey, including forest, open country, wetlands, cliffs, tundra, coastlines, or large lakes. In Canada, range and seasonality vary strongly by species.",
+    "migrationStatus": "Resident, migratory, or partially migratory depending on prey, age, weather, and breeding range.",
+    "breeding": "It nests in large trees, on cliffs, on ledges, or in old stick nests depending on region and habitat. Pairs may reuse territories over many years. Low disturbance around nests is important.",
+    "dietFeeding": "It eats birds, mammals, fish, reptiles, carrion, or other prey depending on region and habitat and habitat. Hunting may involve soaring, still-hunting from perches, fast pursuit, or shoreline patrols.",
+    "behavior": "It spends much time watching for prey from the air or exposed perches. Soaring shape, wing pattern, and hunting style are useful identification clues. Adults can be sensitive near nests.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

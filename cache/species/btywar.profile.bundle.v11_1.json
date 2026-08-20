@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Black-throated Gray Warbler is a small active songbird that gleans insects from foliage. Field recognition often comes from small size, fine bill, active foliage movement, and face or throat pattern. It is found in insect-rich woodland, pine forest, scrub, young forest, or specialized breeding habitat depending on region and habitat. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Black-throated Gray Warbler (Setophaga nigrescens) belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for small size, fine bill, active foliage movement, and face or throat pattern. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It is tied to insect-rich vegetation, often in forest, pine stands, scrub, or early successional habitat. In Canada, warblers are mostly spring and summer birds, with migration and breeding range varying by species.",
+    "migrationStatus": "Strongly migratory in Canada, moving between northern breeding areas and warmer wintering regions.",
+    "breeding": "It builds a cup nest in trees, shrubs, ground cover, or specialized young forest habitat depending on region and habitat. Nestlings are fed insects, and breeding success depends on healthy native vegetation.",
+    "dietFeeding": "It eats insects, spiders, caterpillars, and other small invertebrates. It searches leaves, twigs, bark, flowers, or pine needles, sometimes joining mixed flocks during migration.",
+    "behavior": "It is restless and active, moving through foliage while picking prey from leaves and twigs. Males sing persistently on breeding territories, and migration can be fast and weather-dependent.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

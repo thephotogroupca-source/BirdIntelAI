@@ -1,0 +1,51 @@
+{
+  "validatedAt": "2026-08-20T07:17:42.379125-04:00",
+  "appendMode": true,
+  "sourceZip": "BirdIntelAI_Dev_Canada108_Appended_Final_20260819(1).zip",
+  "sourceWorkbook": "USA_Missing_After_Canada108_Filter_20260819_Approved.xlsx",
+  "existingProfileBundlesPreserved": 1058,
+  "approvedUsRowsMarkedY": 60,
+  "trueNewProfileRows": 57,
+  "aliasReviewRows": 3,
+  "exactCodeCacheBundlesAppended": 60,
+  "newDataProfiles": 60,
+  "overwrites": 0,
+  "duplicateZipEntries": 0,
+  "emptySections": {},
+  "emptySectionDetails": [],
+  "aliasActions": [
+    {
+      "speciesCode": "yelwar",
+      "commonName": "Yellow Warbler",
+      "matchedCacheCode": "manwar1",
+      "action": "generated_exact_yellow_warbler_because_related_cache_is_mangrove_yellow_warbler"
+    },
+    {
+      "speciesCode": "eletro",
+      "commonName": "Elegant Trogon",
+      "matchedCacheCode": "eletro2",
+      "action": "copied_related_exact_species_profile"
+    },
+    {
+      "speciesCode": "relpar",
+      "commonName": "Red-lored Parrot",
+      "matchedCacheCode": "relpar10",
+      "action": "copied_related_exact_species_profile"
+    }
+  ],
+  "noEnvRead": true,
+  "noApiKeyUsed": true,
+  "notes": [
+    "Existing zip entries were copied unchanged, then approved USA files were appended.",
+    "The 57 missing-profile rows were generated as local draft cache entries without external API calls.",
+    "Three related-code rows were appended as exact-code review bundles. Yellow Warbler was generated as an exact USA profile instead of copying Mangrove Yellow Warbler text.",
+    "Naturalist review is recommended before public launch."
+  ],
+  "errors": [],
+  "duplicateZipEntryDetails": [],
+  "existingProfilesHashUnchanged": 1058,
+  "existingProfilesHashChanged": 0,
+  "existingProfilesHashChangedDetails": [],
+  "totalProfileBundlesNow": 1118,
+  "zipSizeBytes": 5887991
+}

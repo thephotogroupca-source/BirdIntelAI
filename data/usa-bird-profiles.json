@@ -1,0 +1,1651 @@
+{
+  "regionCode": "US",
+  "regionName": "United States",
+  "taxonomy": "eBird species codes from approved USA workbook",
+  "generatedAt": "2026-08-20T07:17:42.379125-04:00",
+  "expectedApprovedRows": 60,
+  "trueNewProfileRows": 57,
+  "aliasReviewRows": 3,
+  "availableProfiles": 60,
+  "missingSpeciesCodes": [],
+  "appendMode": true,
+  "sourceWorkbook": "USA_Missing_After_Canada108_Filter_20260819_Approved.xlsx",
+  "profileSource": "local_append_usa_approved_57_20260820",
+  "reviewStatus": "draft_needs_naturalist_review",
+  "profiles": {
+    "rinphe": {
+      "speciesCode": "rinphe",
+      "commonName": "Ring-necked/Green Pheasant",
+      "scientificName": "Phasianus colchicus/versicolor",
+      "orderName": "Galliformes",
+      "familyCommonName": "Pheasants, Grouse, and Allies",
+      "familyCode": "pheasantsgrouseandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Ring-necked/Green Pheasant is an eBird composite or slash taxon used when closely related pheasant forms are not separated confidently. Field recognition often comes from male pheasant pattern, long tail, glossy green head, red face skin, pale neck ring when present, and warm copper body; females are mottled brown and much more cryptic. In the U.S. source data, it appeared in 22 state or DC summaries, including CA, CO, IA, ID, IL, IN, KS, MI, MN, MO, MT, ND, NE, NM, and 8 more. It is most associated with Wetlands:  Generalist and Wetlands:  Generalist, and local season should be checked before trip planning.",
+        "classification": "The Ring-necked/Green Pheasant belongs to the family Pheasants, Grouse, and Allies in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for male pheasant pattern, long tail, glossy green head, red face skin, pale neck ring when present, and warm copper body; females are mottled brown and much more cryptic. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 22 state or DC summary files: CA, CO, IA, ID, IL, IN, KS, MI, MN, MO, MT, ND, NE, NM, and 8 more. It is most often linked with Wetlands:  Generalist and Wetlands:  Generalist. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding is ground based, with nests hidden in grass, sagebrush, agricultural edges, or other dense cover. Chicks are precocial and feed themselves soon after hatching, while adults rely on cover for protection. Local success depends heavily on intact Wetlands:  Generalist and Wetlands:  Generalist.",
+        "dietFeeding": "It feeds mostly on seeds, leaves, shoots, berries, cultivated grain, and insects. Feeding is mainly on the ground, often in grassland, shrubland, farm edges, or open woodland.",
+        "behavior": "It spends much time walking in cover and usually flushes with loud wingbeats when disturbed. Males can be conspicuous during display, while females remain more hidden around nesting cover.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "recwoo": {
+      "speciesCode": "recwoo",
+      "commonName": "Red-cockaded Woodpecker",
+      "scientificName": "Dryobates borealis",
+      "orderName": "Piciformes",
+      "familyCommonName": "Woodpeckers",
+      "familyCode": "woodpeckers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Red-cockaded Woodpecker (Dryobates borealis) is a woodpecker recorded in the United States. Field recognition often comes from black-and-white barred back, large white cheek patch, black cap, small size, and the male's tiny red cockade, which is often hidden. In the U.S. source data, it appeared in 11 state or DC summaries, including AL, AR, FL, GA, LA, MS, NC, OK, SC, TX, VA. It is most associated with Forests:  Temperate Eastern, and local season should be checked before trip planning.",
+        "classification": "The Red-cockaded Woodpecker belongs to the family Woodpeckers in the order Piciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for black-and-white barred back, large white cheek patch, black cap, small size, and the male's tiny red cockade, which is often hidden. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 11 state or DC summary files: AL, AR, FL, GA, LA, MS, NC, OK, SC, TX, VA. It is most often linked with Forests:  Temperate Eastern. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding pairs excavate or reuse cavities in trees, snags, poles, or large limbs depending on the species and habitat. Cavities are important for nesting success, and both adults may help with excavation, incubation, and feeding young. Mature or structurally diverse Forests:  Temperate Eastern is often valuable.",
+        "dietFeeding": "It eats insects and other arthropods taken from bark, branches, trunks, and sometimes the ground. It may also take fruit, seeds, or sap depending on season. Foraging usually involves climbing, probing, tapping, or flaking bark.",
+        "behavior": "It climbs trunks and branches using stiff tail feathers for support. Calls, drumming, and repeated visits to favored trees are often useful clues. Many woodpeckers defend territories during the breeding season.",
+        "conservation": {
+          "status": "Near Threatened",
+          "populationTrend": "Recovering in some managed areas but still dependent on mature pine habitat and active conservation.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "labwoo": {
+      "speciesCode": "labwoo",
+      "commonName": "Ladder-backed Woodpecker",
+      "scientificName": "Dryobates scalaris",
+      "orderName": "Piciformes",
+      "familyCommonName": "Woodpeckers",
+      "familyCode": "woodpeckers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Ladder-backed Woodpecker (Dryobates scalaris) is a woodpecker recorded in the United States. Field recognition often comes from ladder-like black-and-white barring on the back, spotted underparts, buff or whitish face, and red crown on adult males. In the U.S. source data, it appeared in 8 state or DC summaries, including AZ, CA, CO, NM, NV, OK, TX, UT. It is most associated with Aridlands:  Desert Scrub and Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Ladder-backed Woodpecker belongs to the family Woodpeckers in the order Piciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for ladder-like black-and-white barring on the back, spotted underparts, buff or whitish face, and red crown on adult males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 8 state or DC summary files: AZ, CA, CO, NM, NV, OK, TX, UT. It is most often linked with Aridlands:  Desert Scrub and Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding pairs excavate or reuse cavities in trees, snags, poles, or large limbs depending on the species and habitat. Cavities are important for nesting success, and both adults may help with excavation, incubation, and feeding young. Mature or structurally diverse Aridlands:  Desert Scrub and Forests:  Tropical Dry is often valuable.",
+        "dietFeeding": "It eats insects and other arthropods taken from bark, branches, trunks, and sometimes the ground. It may also take fruit, seeds, or sap depending on season. Foraging usually involves climbing, probing, tapping, or flaking bark.",
+        "behavior": "It climbs trunks and branches using stiff tail feathers for support. Calls, drumming, and repeated visits to favored trees are often useful clues. Many woodpeckers defend territories during the breeding season.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "scaqua": {
+      "speciesCode": "scaqua",
+      "commonName": "Scaled Quail",
+      "scientificName": "Callipepla squamata",
+      "orderName": "Galliformes",
+      "familyCommonName": "New World Quail",
+      "familyCode": "newworldquail",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Scaled Quail (Callipepla squamata) is a quail recorded in the United States. Field recognition often comes from scaled gray-brown body pattern, short crest, pale-tipped feathers, and compact quail shape. In the U.S. source data, it appeared in 6 state or DC summaries, including AZ, CO, KS, NM, OK, TX. It is most associated with Grasslands:  Chihuahuan and Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+        "classification": "The Scaled Quail belongs to the family New World Quail in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for scaled gray-brown body pattern, short crest, pale-tipped feathers, and compact quail shape. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 6 state or DC summary files: AZ, CO, KS, NM, OK, TX. It is most often linked with Grasslands:  Chihuahuan and Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding is ground based. The nest is usually a shallow scrape hidden in grass or shrubs, lined with plant material, and the chicks leave the nest soon after hatching. Good cover, seeds, insects, and nearby escape habitat are important in Grasslands:  Chihuahuan and Aridlands:  Desert Scrub.",
+        "dietFeeding": "It eats seeds, leaves, buds, fruits, and insects, with young birds taking more animal food. Most feeding is done on the ground while walking through grass, desert scrub, or brushy cover.",
+        "behavior": "It is usually seen on the ground, walking or running through cover and flushing only when pressed. Family groups or coveys may stay together outside the breeding season.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "luchum": {
+      "speciesCode": "luchum",
+      "commonName": "Lucifer Hummingbird",
+      "scientificName": "Calothorax lucifer",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Lucifer Hummingbird (Calothorax lucifer) is a hummingbird recorded in the United States. Field recognition often comes from male's long purple gorget feathers, decurved bill, green upperparts, and small desert hummingbird build. In the U.S. source data, it appeared in 3 state or DC summaries, including AZ, NM, TX. It is most associated with Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+        "classification": "The Lucifer Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for male's long purple gorget feathers, decurved bill, green upperparts, and small desert hummingbird build. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: AZ, NM, TX. It is most often linked with Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Aridlands:  Desert Scrub can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "mexjay4": {
+      "speciesCode": "mexjay4",
+      "commonName": "Mexican Jay",
+      "scientificName": "Aphelocoma wollweberi",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Crows, Jays, and Magpies",
+      "familyCode": "crowsjaysandmagpies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Mexican Jay (Aphelocoma wollweberi) is a jay recorded in the United States. Field recognition often comes from plain blue upperparts, grayish underparts, long tail, strong bill, and noisy group behavior. In the U.S. source data, it appeared in 3 state or DC summaries, including AZ, NM, TX. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The Mexican Jay belongs to the family Crows, Jays, and Magpies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for plain blue upperparts, grayish underparts, long tail, strong bill, and noisy group behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: AZ, NM, TX. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It is omnivorous, eating insects, acorns, seeds, fruit, eggs, nestlings, and human-associated food where available. It forages in trees and on the ground and may store food for later use.",
+        "behavior": "It is intelligent, social, and vocal. Many jays move in family groups, post sentinels, cache food, and quickly respond to predators or unusual activity.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "recpar": {
+      "speciesCode": "recpar",
+      "commonName": "Red-crowned Parrot",
+      "scientificName": "Amazona viridigenalis",
+      "orderName": "Psittaciformes",
+      "familyCommonName": "New World and African Parrots",
+      "familyCode": "newworldandafricanparrot",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Red-crowned Parrot (Amazona viridigenalis) is a parrot recorded in the United States. Field recognition often comes from green body, red forehead and lores, blue crown tones, yellowish cheek area, and loud parrot flight calls. In the U.S. source data, it appeared in 3 state or DC summaries, including CA, HI, TX. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Red-crowned Parrot belongs to the family New World and African Parrots in the order Psittaciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for green body, red forehead and lores, blue crown tones, yellowish cheek area, and loud parrot flight calls. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: CA, HI, TX. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding typically uses tree cavities, palm cavities, or other enclosed sites where available. Pairs are strongly bonded, and both adults help feed the young. Large trees, safe nesting cavities, and reliable food supplies are important.",
+        "dietFeeding": "It feeds on seeds, fruit, berries, blossoms, buds, and other plant material. Flocks often travel between feeding trees and roosting areas and use the bill and feet together while handling food.",
+        "behavior": "It is social and noisy, often moving in pairs or flocks. Strong flight, communal roosting, and loud contact calls make parrots easier to detect than to approach closely.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "maghum1": {
+      "speciesCode": "maghum1",
+      "commonName": "Rivoli's Hummingbird",
+      "scientificName": "Eugenes fulgens",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Rivoli's Hummingbird (Eugenes fulgens) is a hummingbird recorded in the United States. Field recognition often comes from large hummingbird size, emerald green gorget in males, purple crown, white spot behind the eye, and powerful flight. In the U.S. source data, it appeared in 3 state or DC summaries, including AZ, NM, TX. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Tropical Montane Evergreen, and local season should be checked before trip planning.",
+        "classification": "The Rivoli's Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large hummingbird size, emerald green gorget in males, purple crown, white spot behind the eye, and powerful flight. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: AZ, NM, TX. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Tropical Montane Evergreen. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Forests:  Mesoamerican Pine-Oak and Forests:  Tropical Montane Evergreen can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "allhum": {
+      "speciesCode": "allhum",
+      "commonName": "Allen's Hummingbird",
+      "scientificName": "Selasphorus sasin",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Allen's Hummingbird (Selasphorus sasin) is a hummingbird recorded in the United States. Field recognition often comes from small compact hummingbird shape, male's orange-red gorget, green back, and warm rufous flanks and tail tones. In the U.S. source data, it appeared in 2 state or DC summaries, including CA, OR. It is most associated with Aridlands:  Chaparral, and local season should be checked before trip planning.",
+        "classification": "The Allen's Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small compact hummingbird shape, male's orange-red gorget, green back, and warm rufous flanks and tail tones. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CA, OR. It is most often linked with Aridlands:  Chaparral. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Aridlands:  Chaparral can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "ariwoo": {
+      "speciesCode": "ariwoo",
+      "commonName": "Arizona Woodpecker",
+      "scientificName": "Dryobates arizonae",
+      "orderName": "Piciformes",
+      "familyCommonName": "Woodpeckers",
+      "familyCode": "woodpeckers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Arizona Woodpecker (Dryobates arizonae) is a woodpecker recorded in the United States. Field recognition often comes from brown back with fine pale barring, pale face stripes, spotted underparts, and red crown on males. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Arizona Woodpecker belongs to the family Woodpeckers in the order Piciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for brown back with fine pale barring, pale face stripes, spotted underparts, and red crown on males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding pairs excavate or reuse cavities in trees, snags, poles, or large limbs depending on the species and habitat. Cavities are important for nesting success, and both adults may help with excavation, incubation, and feeding young. Mature or structurally diverse Forests:  Mesoamerican Pine-Oak is often valuable.",
+        "dietFeeding": "It eats insects and other arthropods taken from bark, branches, trunks, and sometimes the ground. It may also take fruit, seeds, or sap depending on season. Foraging usually involves climbing, probing, tapping, or flaking bark.",
+        "behavior": "It climbs trunks and branches using stiff tail feathers for support. Calls, drumming, and repeated visits to favored trees are often useful clues. Many woodpeckers defend territories during the breeding season.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "gofwoo": {
+      "speciesCode": "gofwoo",
+      "commonName": "Golden-fronted Woodpecker",
+      "scientificName": "Melanerpes aurifrons",
+      "orderName": "Piciformes",
+      "familyCommonName": "Woodpeckers",
+      "familyCode": "woodpeckers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Golden-fronted Woodpecker (Melanerpes aurifrons) is a woodpecker recorded in the United States. Field recognition often comes from golden nape, barred back, pale head, sturdy bill, and bold black-and-white wing pattern. In the U.S. source data, it appeared in 2 state or DC summaries, including OK, TX. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Golden-fronted Woodpecker belongs to the family Woodpeckers in the order Piciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for golden nape, barred back, pale head, sturdy bill, and bold black-and-white wing pattern. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: OK, TX. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding pairs excavate or reuse cavities in trees, snags, poles, or large limbs depending on the species and habitat. Cavities are important for nesting success, and both adults may help with excavation, incubation, and feeding young. Mature or structurally diverse Forests:  Tropical Dry is often valuable.",
+        "dietFeeding": "It eats insects and other arthropods taken from bark, branches, trunks, and sometimes the ground. It may also take fruit, seeds, or sap depending on season. Foraging usually involves climbing, probing, tapping, or flaking bark.",
+        "behavior": "It climbs trunks and branches using stiff tail feathers for support. Calls, drumming, and repeated visits to favored trees are often useful clues. Many woodpeckers defend territories during the breeding season.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "gusgro": {
+      "speciesCode": "gusgro",
+      "commonName": "Gunnison Sage-Grouse",
+      "scientificName": "Centrocercus minimus",
+      "orderName": "Galliformes",
+      "familyCommonName": "Pheasants, Grouse, and Allies",
+      "familyCode": "pheasantsgrouseandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Gunnison Sage-Grouse (Centrocercus minimus) is a pheasant recorded in the United States. Field recognition often comes from sage-grouse shape, white breast, dark belly, spiky tail, yellow air sacs in displaying males, and elaborate lek display. In the U.S. source data, it appeared in 2 state or DC summaries, including CO, UT. It is most associated with Aridlands:  Sagebrush, and local season should be checked before trip planning.",
+        "classification": "The Gunnison Sage-Grouse belongs to the family Pheasants, Grouse, and Allies in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for sage-grouse shape, white breast, dark belly, spiky tail, yellow air sacs in displaying males, and elaborate lek display. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CO, UT. It is most often linked with Aridlands:  Sagebrush. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding is ground based, with nests hidden in grass, sagebrush, agricultural edges, or other dense cover. Chicks are precocial and feed themselves soon after hatching, while adults rely on cover for protection. Local success depends heavily on intact Aridlands:  Sagebrush.",
+        "dietFeeding": "It feeds mostly on seeds, leaves, shoots, berries, cultivated grain, and insects. Feeding is mainly on the ground, often in grassland, shrubland, farm edges, or open woodland.",
+        "behavior": "It spends much time walking in cover and usually flushes with loud wingbeats when disturbed. Males can be conspicuous during display, while females remain more hidden around nesting cover.",
+        "conservation": {
+          "status": "Endangered",
+          "populationTrend": "Very small and range-restricted, with continuing pressure from sagebrush habitat loss and fragmentation.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "oliwar": {
+      "speciesCode": "oliwar",
+      "commonName": "Olive Warbler",
+      "scientificName": "Peucedramus taeniatus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "New World Warblers",
+      "familyCode": "newworldwarblers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Olive Warbler (Peucedramus taeniatus) is a warbler recorded in the United States. Field recognition often comes from olive-gray body, orange-brown head in adults, white wing patches, and deliberate movement in pine or oak-pine trees. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Olive Warbler belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for olive-gray body, orange-brown head in adults, white wing patches, and deliberate movement in pine or oak-pine trees. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding usually involves a small cup nest placed in vegetation, shrubs, low trees, or woodland cover depending on the species. Insect abundance is important for raising young. In the United States, timing and habitat use vary by region, especially around Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak.",
+        "dietFeeding": "It feeds mainly on insects and spiders, taken from leaves, twigs, flowers, and bark. During migration or winter it may also take some berries or nectar when available.",
+        "behavior": "It is active and often restless, moving through foliage while gleaning insects. Songs and call notes are important for detection, especially during breeding or migration.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "refwar": {
+      "speciesCode": "refwar",
+      "commonName": "Red-faced Warbler",
+      "scientificName": "Cardellina rubrifrons",
+      "orderName": "Passeriformes",
+      "familyCommonName": "New World Warblers",
+      "familyCode": "newworldwarblers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Red-faced Warbler (Cardellina rubrifrons) is a warbler recorded in the United States. Field recognition often comes from bright red face, gray body, white nape patch, and active foraging in mountain forest. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Red-faced Warbler belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for bright red face, gray body, white nape patch, and active foraging in mountain forest. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding usually involves a small cup nest placed in vegetation, shrubs, low trees, or woodland cover depending on the species. Insect abundance is important for raising young. In the United States, timing and habitat use vary by region, especially around Forests:  Mesoamerican Pine-Oak.",
+        "dietFeeding": "It feeds mainly on insects and spiders, taken from leaves, twigs, flowers, and bark. During migration or winter it may also take some berries or nectar when available.",
+        "behavior": "It is active and often restless, moving through foliage while gleaning insects. Songs and call notes are important for detection, especially during breeding or migration.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "vichum": {
+      "speciesCode": "vichum",
+      "commonName": "Violet-crowned Hummingbird",
+      "scientificName": "Ramosomyia violiceps",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Violet-crowned Hummingbird (Ramosomyia violiceps) is a hummingbird recorded in the United States. Field recognition often comes from white underparts, green upperparts, straight red bill with dark tip, and violet-blue crown in males. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Violet-crowned Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for white underparts, green upperparts, straight red bill with dark tip, and violet-blue crown in males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "Movement status varies by region. Current local sightings and season are important for planning, because abundance can change through the year.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Forests:  Tropical Dry can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "whsowl1": {
+      "speciesCode": "whsowl1",
+      "commonName": "Whiskered Screech-Owl",
+      "scientificName": "Megascops trichopsis",
+      "orderName": "Strigiformes",
+      "familyCommonName": "Owls",
+      "familyCode": "owls",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Whiskered Screech-Owl (Megascops trichopsis) is a owl recorded in the United States. Field recognition often comes from small owl size, ear tufts, yellow eyes, dark streaking, and a whistled or trilled voice in oak-pine canyon habitat. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Whiskered Screech-Owl belongs to the family Owls in the order Strigiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small owl size, ear tufts, yellow eyes, dark streaking, and a whistled or trilled voice in oak-pine canyon habitat. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding may use natural cavities, old woodpecker holes, nest boxes, or sheltered sites depending on local habitat. Owls usually do not build elaborate nests. Nesting success depends on safe cavities or cover and reliable prey near Forests:  Mesoamerican Pine-Oak.",
+        "dietFeeding": "It hunts small mammals, birds, insects, reptiles, or other small animals, depending on local prey. Hunting is mostly from a perch, with short flights to capture prey in woodland or edge habitat.",
+        "behavior": "It is most active at dusk, night, or early morning. It often remains hidden by day, so voice, habitat, and roosting posture are important clues.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "audori": {
+      "speciesCode": "audori",
+      "commonName": "Audubon's Oriole",
+      "scientificName": "Icterus graduacauda",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Troupials and Allies",
+      "familyCode": "troupialsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Audubon's Oriole (Icterus graduacauda) is a oriole recorded in the United States. Field recognition often comes from large yellow-and-black oriole pattern, black hood and bib, yellow shoulder and underparts, and sturdy pointed bill. In the U.S. source data, it appeared in 1 state or DC summaries, including TX. It is most associated with Forests:  Tropical Dry and Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Audubon's Oriole belongs to the family Troupials and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large yellow-and-black oriole pattern, black hood and bib, yellow shoulder and underparts, and sturdy pointed bill. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: TX. It is most often linked with Forests:  Tropical Dry and Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Dry and Forests:  Mesoamerican Pine-Oak, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "bubhum": {
+      "speciesCode": "bubhum",
+      "commonName": "Buff-bellied Hummingbird",
+      "scientificName": "Amazilia yucatanensis",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Buff-bellied Hummingbird (Amazilia yucatanensis) is a hummingbird recorded in the United States. Field recognition often comes from green upperparts, buff belly, rufous tail, red bill with dark tip, and broad-winged hummingbird shape. In the U.S. source data, it appeared in 1 state or DC summaries, including TX. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Buff-bellied Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for green upperparts, buff belly, rufous tail, red bill with dark tip, and broad-winged hummingbird shape. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: TX. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Forests:  Tropical Dry can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "grnjay": {
+      "speciesCode": "grnjay",
+      "commonName": "Green Jay",
+      "scientificName": "Cyanocorax yncas",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Crows, Jays, and Magpies",
+      "familyCode": "crowsjaysandmagpies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Green Jay (Cyanocorax yncas) is a jay recorded in the United States. Field recognition often comes from green body, blue and black head pattern, yellowish undertail, and noisy social behavior. In the U.S. source data, it appeared in 1 state or DC summaries, including TX. It is most associated with Forests:  Tropical Lowland Evergreen, and local season should be checked before trip planning.",
+        "classification": "The Green Jay belongs to the family Crows, Jays, and Magpies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for green body, blue and black head pattern, yellowish undertail, and noisy social behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: TX. It is most often linked with Forests:  Tropical Lowland Evergreen. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Lowland Evergreen, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It is omnivorous, eating insects, acorns, seeds, fruit, eggs, nestlings, and human-associated food where available. It forages in trees and on the ground and may store food for later use.",
+        "behavior": "It is intelligent, social, and vocal. Many jays move in family groups, post sentinels, cache food, and quickly respond to predators or unusual activity.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "issjay": {
+      "speciesCode": "issjay",
+      "commonName": "Island Scrub-Jay",
+      "scientificName": "Aphelocoma insularis",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Crows, Jays, and Magpies",
+      "familyCode": "crowsjaysandmagpies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Island Scrub-Jay (Aphelocoma insularis) is a jay recorded in the United States. Field recognition often comes from large blue island jay shape, deep blue upperparts, grayish underparts, and strong bill. In the U.S. source data, it appeared in 1 state or DC summaries, including CA. It is most associated with Islands:  Terrestrial Habitats, and local season should be checked before trip planning.",
+        "classification": "The Island Scrub-Jay belongs to the family Crows, Jays, and Magpies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large blue island jay shape, deep blue upperparts, grayish underparts, and strong bill. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: CA. It is most often linked with Islands:  Terrestrial Habitats. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Islands:  Terrestrial Habitats, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It is omnivorous, eating insects, acorns, seeds, fruit, eggs, nestlings, and human-associated food where available. It forages in trees and on the ground and may store food for later use.",
+        "behavior": "It is intelligent, social, and vocal. Many jays move in family groups, post sentinels, cache food, and quickly respond to predators or unusual activity.",
+        "conservation": {
+          "status": "Near Threatened",
+          "populationTrend": "Restricted to Santa Cruz Island, so the population is vulnerable to island-level habitat and disease pressures.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "jabwar": {
+      "speciesCode": "jabwar",
+      "commonName": "Japanese Bush Warbler",
+      "scientificName": "Horornis diphone",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Bush Warblers and Allies",
+      "familyCode": "bushwarblersandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Japanese Bush Warbler (Horornis diphone) is a bush warbler recorded in the United States. Field recognition often comes from plain brown upperparts, pale eyebrow, long rounded tail, and skulking behavior in dense cover. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Japanese Bush Warbler belongs to the family Bush Warblers and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for plain brown upperparts, pale eyebrow, long rounded tail, and skulking behavior in dense cover. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "whehum": {
+      "speciesCode": "whehum",
+      "commonName": "White-eared Hummingbird",
+      "scientificName": "Basilinna leucotis",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The White-eared Hummingbird (Basilinna leucotis) is a hummingbird recorded in the United States. Field recognition often comes from white ear stripe, green throat in males, red bill with dark tip, and contrasting dark mask. In the U.S. source data, it appeared in 1 state or DC summaries, including AZ. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The White-eared Hummingbird belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for white ear stripe, green throat in males, red bill with dark tip, and contrasting dark mask. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: AZ. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "Movement status varies by region. Current local sightings and season are important for planning, because abundance can change through the year.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "yebcar": {
+      "speciesCode": "yebcar",
+      "commonName": "Yellow-billed Cardinal",
+      "scientificName": "Paroaria capitata",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Cardinals and Allies",
+      "familyCode": "cardinalsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Yellow-billed Cardinal (Paroaria capitata) is a cardinal recorded in the United States. Field recognition often comes from bright red body, black facial mask, and heavy yellow bill. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Yellow-billed Cardinal belongs to the family Cardinals and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for bright red body, black facial mask, and heavy yellow bill. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "yebmag": {
+      "speciesCode": "yebmag",
+      "commonName": "Yellow-billed Magpie",
+      "scientificName": "Pica nuttalli",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Crows, Jays, and Magpies",
+      "familyCode": "crowsjaysandmagpies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Yellow-billed Magpie (Pica nuttalli) is a magpie recorded in the United States. Field recognition often comes from large black-and-white magpie pattern, long tail, yellow bill, and yellow bare skin around the eye. In the U.S. source data, it appeared in 1 state or DC summaries, including CA. It is most associated with Forests:  Temperate Western, and local season should be checked before trip planning.",
+        "classification": "The Yellow-billed Magpie belongs to the family Crows, Jays, and Magpies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large black-and-white magpie pattern, long tail, yellow bill, and yellow bare skin around the eye. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: CA. It is most often linked with Forests:  Temperate Western. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Western, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Vulnerable",
+          "populationTrend": "Restricted to California and affected by disease outbreaks, especially West Nile virus.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "hergul": {
+      "speciesCode": "hergul",
+      "commonName": "Herring Gull",
+      "scientificName": "Larus argentatus",
+      "orderName": "Charadriiformes",
+      "familyCommonName": "Gulls, Terns, and Skimmers",
+      "familyCode": "gullsternsandskimmers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Herring Gull (Larus argentatus) is a gull recorded in the United States. Field recognition often comes from large gull size, pale gray mantle, white head in breeding adults, pink legs, and red spot on the lower bill. In the U.S. source data, it appeared in 42 state or DC summaries, including AK, AL, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, and 28 more. It is most associated with Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers, and local season should be checked before trip planning.",
+        "classification": "The Herring Gull belongs to the family Gulls, Terns, and Skimmers in the order Charadriiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large gull size, pale gray mantle, white head in breeding adults, pink legs, and red spot on the lower bill. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 42 state or DC summary files: AK, AL, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, and 28 more. It is most often linked with Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "whimbr": {
+      "speciesCode": "whimbr",
+      "commonName": "Whimbrel",
+      "scientificName": "Numenius phaeopus",
+      "orderName": "Charadriiformes",
+      "familyCommonName": "Sandpipers and Allies",
+      "familyCode": "sandpipersandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Whimbrel (Numenius phaeopus) is a shorebird recorded in the United States. Field recognition often comes from large curlew-like shorebird shape, long downcurved bill, striped crown, and strong coastal flight. In the U.S. source data, it appeared in 20 state or DC summaries, including AK, AL, AZ, CA, FL, GA, LA, MA, MD, MI, MS, MT, NC, NJ, and 6 more. It is most associated with Tundra:  Arctic and Wetlands:  Boreal, and local season should be checked before trip planning.",
+        "classification": "The Whimbrel belongs to the family Sandpipers and Allies in the order Charadriiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large curlew-like shorebird shape, long downcurved bill, striped crown, and strong coastal flight. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 20 state or DC summary files: AK, AL, AZ, CA, FL, GA, LA, MA, MD, MI, MS, MT, NC, NJ, and 6 more. It is most often linked with Tundra:  Arctic and Wetlands:  Boreal. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Tundra:  Arctic and Wetlands:  Boreal, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "bnhnut": {
+      "speciesCode": "bnhnut",
+      "commonName": "Brown-headed Nuthatch",
+      "scientificName": "Sitta pusilla",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Nuthatches",
+      "familyCode": "nuthatches",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Brown-headed Nuthatch (Sitta pusilla) is a nuthatch recorded in the United States. Field recognition often comes from small nuthatch shape, brown cap, white cheeks, bluish back, and nasal calls in pine woods. In the U.S. source data, it appeared in 14 state or DC summaries, including AL, AR, DE, FL, GA, LA, MD, MS, NC, OK, SC, TN, TX, VA. It is most associated with Forests:  Temperate Eastern, and local season should be checked before trip planning.",
+        "classification": "The Brown-headed Nuthatch belongs to the family Nuthatches in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small nuthatch shape, brown cap, white cheeks, bluish back, and nasal calls in pine woods. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 14 state or DC summary files: AL, AR, DE, FL, GA, LA, MD, MS, NC, OK, SC, TN, TX, VA. It is most often linked with Forests:  Temperate Eastern. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Eastern, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "botgra": {
+      "speciesCode": "botgra",
+      "commonName": "Boat-tailed Grackle",
+      "scientificName": "Quiscalus major",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Troupials and Allies",
+      "familyCode": "troupialsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Boat-tailed Grackle (Quiscalus major) is a blackbird recorded in the United States. Field recognition often comes from large glossy blackbird, very long tail, heavy bill, and inflated display posture in males. In the U.S. source data, it appeared in 13 state or DC summaries, including AL, DE, FL, GA, LA, MD, MS, NC, NJ, NY, SC, TX, VA. It is most associated with Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh, and local season should be checked before trip planning.",
+        "classification": "The Boat-tailed Grackle belongs to the family Troupials and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large glossy blackbird, very long tail, heavy bill, and inflated display posture in males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 13 state or DC summary files: AL, DE, FL, GA, LA, MD, MS, NC, NJ, NY, SC, TX, VA. It is most often linked with Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Coasts:  Saltmarsh and Wetlands:  Freshwater Marsh, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It eats insects, seeds, grain, and other plant material, with diet changing by season. It often feeds on the ground or in marsh vegetation and may gather in flocks outside the breeding season.",
+        "behavior": "It is social and vocal, with males often using exposed display perches. Many species nest in colonies or loose groups and gather in flocks outside breeding season.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "greroa": {
+      "speciesCode": "greroa",
+      "commonName": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "orderName": "Cuculiformes",
+      "familyCommonName": "Cuckoos",
+      "familyCode": "cuckoos",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Greater Roadrunner (Geococcyx californianus) is a roadrunner recorded in the United States. Field recognition often comes from long-tailed ground cuckoo shape, shaggy crest, streaked body, strong legs, and blue-red facial skin behind the eye. In the U.S. source data, it appeared in 11 state or DC summaries, including AR, AZ, CA, CO, KS, LA, NM, NV, OK, TX, UT. It is most associated with Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+        "classification": "The Greater Roadrunner belongs to the family Cuckoos in the order Cuculiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for long-tailed ground cuckoo shape, shaggy crest, streaked body, strong legs, and blue-red facial skin behind the eye. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 11 state or DC summary files: AR, AZ, CA, CO, KS, LA, NM, NV, OK, TX, UT. It is most often linked with Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Desert Scrub, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "juntit1": {
+      "speciesCode": "juntit1",
+      "commonName": "Juniper Titmouse",
+      "scientificName": "Baeolophus ridgwayi",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tits, Chickadees, and Titmice",
+      "familyCode": "titschickadeesandtitmice",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Juniper Titmouse (Baeolophus ridgwayi) is a titmouse recorded in the United States. Field recognition often comes from small gray titmouse body, short crest, plain face, and active movement through juniper and pinyon. In the U.S. source data, it appeared in 11 state or DC summaries, including AZ, CA, CO, ID, NM, NV, OK, OR, TX, UT, WY. It is most associated with Forests:  Temperate Western, and local season should be checked before trip planning.",
+        "classification": "The Juniper Titmouse belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small gray titmouse body, short crest, plain face, and active movement through juniper and pinyon. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 11 state or DC summary files: AZ, CA, CO, ID, NM, NV, OK, OR, TX, UT, WY. It is most often linked with Forests:  Temperate Western. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Western, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "bkrfin": {
+      "speciesCode": "bkrfin",
+      "commonName": "Black Rosy-Finch",
+      "scientificName": "Leucosticte atrata",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Finches, Euphonias, and Allies",
+      "familyCode": "fincheseuphoniasandallie",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Black Rosy-Finch (Leucosticte atrata) is a finch recorded in the United States. Field recognition often comes from dark rosy-finch body, blackish tones, pink wing and belly highlights, and high-elevation flocking behavior. In the U.S. source data, it appeared in 9 state or DC summaries, including AZ, CO, ID, MT, NM, NV, OR, UT, WY. It is most associated with Tundra:  Alpine, and local season should be checked before trip planning.",
+        "classification": "The Black Rosy-Finch belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for dark rosy-finch body, blackish tones, pink wing and belly highlights, and high-elevation flocking behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 9 state or DC summary files: AZ, CO, ID, MT, NM, NV, OR, UT, WY. It is most often linked with Tundra:  Alpine. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Tundra:  Alpine, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds mainly on seeds, buds, and small fruits, and may take insects during breeding. It uses its specialized bill to handle seeds and often moves in small flocks.",
+        "behavior": "It often moves in flocks and follows food supplies. Flight calls, bill shape, and feeding plants are useful clues, especially in winter or nomadic species.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "gryvir": {
+      "speciesCode": "gryvir",
+      "commonName": "Gray Vireo",
+      "scientificName": "Vireo vicinior",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Vireos, Shrike-Babblers, and Erpornis",
+      "familyCode": "vireosshrikebabblersande",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Gray Vireo (Vireo vicinior) is a vireo recorded in the United States. Field recognition often comes from plain gray head and body, pale spectacles, two wingbars, and deliberate vireo movement in arid scrub. In the U.S. source data, it appeared in 7 state or DC summaries, including AZ, CA, CO, NM, NV, TX, UT. It is most associated with Forests:  Temperate Western and Aridlands:  Chaparral, and local season should be checked before trip planning.",
+        "classification": "The Gray Vireo belongs to the family Vireos, Shrike-Babblers, and Erpornis in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for plain gray head and body, pale spectacles, two wingbars, and deliberate vireo movement in arid scrub. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 7 state or DC summary files: AZ, CA, CO, NM, NV, TX, UT. It is most often linked with Forests:  Temperate Western and Aridlands:  Chaparral. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Western and Aridlands:  Chaparral, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "bktgna": {
+      "speciesCode": "bktgna",
+      "commonName": "Black-tailed Gnatcatcher",
+      "scientificName": "Polioptila melanura",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Gnatcatchers",
+      "familyCode": "gnatcatchers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Black-tailed Gnatcatcher (Polioptila melanura) is a gnatcatcher recorded in the United States. Field recognition often comes from tiny gnatcatcher shape, long black tail with white edges, gray body, and black cap on breeding males. In the U.S. source data, it appeared in 6 state or DC summaries, including AZ, CA, NM, NV, TX, UT. It is most associated with Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+        "classification": "The Black-tailed Gnatcatcher belongs to the family Gnatcatchers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for tiny gnatcatcher shape, long black tail with white edges, gray body, and black cap on breeding males. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 6 state or DC summary files: AZ, CA, NM, NV, TX, UT. It is most often linked with Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Desert Scrub, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "cacwre": {
+      "speciesCode": "cacwre",
+      "commonName": "Cactus Wren",
+      "scientificName": "Campylorhynchus brunneicapillus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Wrens",
+      "familyCode": "wrens",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Cactus Wren (Campylorhynchus brunneicapillus) is a wren recorded in the United States. Field recognition often comes from large wren size, long white eyebrow, spotted breast, barred tail, and bold cactus-perching behavior. In the U.S. source data, it appeared in 6 state or DC summaries, including AZ, CA, NM, NV, TX, UT. It is most associated with Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+        "classification": "The Cactus Wren belongs to the family Wrens in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large wren size, long white eyebrow, spotted breast, barred tail, and bold cactus-perching behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 6 state or DC summary files: AZ, CA, NM, NV, TX, UT. It is most often linked with Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Desert Scrub, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "lawgol": {
+      "speciesCode": "lawgol",
+      "commonName": "Lawrence's Goldfinch",
+      "scientificName": "Spinus lawrencei",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Finches, Euphonias, and Allies",
+      "familyCode": "fincheseuphoniasandallie",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Lawrence's Goldfinch (Spinus lawrencei) is a finch recorded in the United States. Field recognition often comes from gray body, yellow wing patches, black face in males, and erratic movements with seeding plants. In the U.S. source data, it appeared in 5 state or DC summaries, including AZ, CA, NM, NV, TX. It is most associated with Aridlands:  Chaparral and Aridlands:  Desert Riparian, and local season should be checked before trip planning.",
+        "classification": "The Lawrence's Goldfinch belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for gray body, yellow wing patches, black face in males, and erratic movements with seeding plants. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 5 state or DC summary files: AZ, CA, NM, NV, TX. It is most often linked with Aridlands:  Chaparral and Aridlands:  Desert Riparian. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Chaparral and Aridlands:  Desert Riparian, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds mainly on seeds, buds, and small fruits, and may take insects during breeding. It uses its specialized bill to handle seeds and often moves in small flocks.",
+        "behavior": "It often moves in flocks and follows food supplies. Flight calls, bill shape, and feeding plants are useful clues, especially in winter or nomadic species.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "hoared": {
+      "speciesCode": "hoared",
+      "commonName": "Hoary Redpoll",
+      "scientificName": "Acanthis hornemanni",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Finches, Euphonias, and Allies",
+      "familyCode": "fincheseuphoniasandallie",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Hoary Redpoll (Acanthis hornemanni) is a finch recorded in the United States. Field recognition often comes from frosty pale redpoll appearance, small bill, pale rump, and lightly streaked underparts. In the U.S. source data, it appeared in 4 state or DC summaries, including AK, MI, MN, ND. It is most associated with Tundra:  Arctic, and local season should be checked before trip planning.",
+        "classification": "The Hoary Redpoll belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for frosty pale redpoll appearance, small bill, pale rump, and lightly streaked underparts. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 4 state or DC summary files: AK, MI, MN, ND. It is most often linked with Tundra:  Arctic. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Tundra:  Arctic, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds mainly on seeds, buds, and small fruits, and may take insects during breeding. It uses its specialized bill to handle seeds and often moves in small flocks.",
+        "behavior": "It often moves in flocks and follows food supplies. Flight calls, bill shape, and feeding plants are useful clues, especially in winter or nomadic species.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "souwpw1": {
+      "speciesCode": "souwpw1",
+      "commonName": "Mexican Whip-poor-will",
+      "scientificName": "Antrostomus arizonae",
+      "orderName": "Caprimulgiformes",
+      "familyCommonName": "Nightjars and Allies",
+      "familyCode": "nightjarsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Mexican Whip-poor-will (Antrostomus arizonae) is a nightjar recorded in the United States. Field recognition often comes from nightjar shape, cryptic mottled plumage, broad wings, and repeated whip-poor-will style song at dusk or night. In the U.S. source data, it appeared in 4 state or DC summaries, including AZ, CA, NM, TX. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The Mexican Whip-poor-will belongs to the family Nightjars and Allies in the order Caprimulgiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for nightjar shape, cryptic mottled plumage, broad wings, and repeated whip-poor-will style song at dusk or night. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 4 state or DC summary files: AZ, CA, NM, TX. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "Movement status varies by region. Current local sightings and season are important for planning, because abundance can change through the year.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "tribla": {
+      "speciesCode": "tribla",
+      "commonName": "Tricolored Blackbird",
+      "scientificName": "Agelaius tricolor",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Troupials and Allies",
+      "familyCode": "troupialsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Tricolored Blackbird (Agelaius tricolor) is a blackbird recorded in the United States. Field recognition often comes from male's glossy black body with red shoulder patch bordered by white, plus strong colony association. In the U.S. source data, it appeared in 4 state or DC summaries, including CA, NV, OR, WA. It is most associated with Wetlands:  Freshwater Marsh, and local season should be checked before trip planning.",
+        "classification": "The Tricolored Blackbird belongs to the family Troupials and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for male's glossy black body with red shoulder patch bordered by white, plus strong colony association. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 4 state or DC summary files: CA, NV, OR, WA. It is most often linked with Wetlands:  Freshwater Marsh. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Wetlands:  Freshwater Marsh, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It eats insects, seeds, grain, and other plant material, with diet changing by season. It often feeds on the ground or in marsh vegetation and may gather in flocks outside the breeding season.",
+        "behavior": "It is social and vocal, with males often using exposed display perches. Many species nest in colonies or loose groups and gather in flocks outside breeding season.",
+        "conservation": {
+          "status": "Endangered",
+          "populationTrend": "Declining and vulnerable to loss or disturbance of colony sites and wetland or agricultural foraging habitat.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "calcon": {
+      "speciesCode": "calcon",
+      "commonName": "California Condor",
+      "scientificName": "Gymnogyps californianus",
+      "orderName": "Cathartiformes",
+      "familyCommonName": "New World Vultures",
+      "familyCode": "newworldvultures",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The California Condor (Gymnogyps californianus) is a vulture recorded in the United States. Field recognition often comes from huge wingspan, black body, white underwing patches, bare orange-pink head, and soaring flight. In the U.S. source data, it appeared in 3 state or DC summaries, including AZ, CA, UT. It is most associated with Aridlands:  Chaparral and Forests:  Temperate Western, and local season should be checked before trip planning.",
+        "classification": "The California Condor belongs to the family New World Vultures in the order Cathartiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for huge wingspan, black body, white underwing patches, bare orange-pink head, and soaring flight. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: AZ, CA, UT. It is most often linked with Aridlands:  Chaparral and Forests:  Temperate Western. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Chaparral and Forests:  Temperate Western, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Critically Endangered",
+          "populationTrend": "Increasing from intensive recovery work but still conservation-dependent and vulnerable to lead poisoning.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "lilmea2": {
+      "speciesCode": "lilmea2",
+      "commonName": "Chihuahuan Meadowlark",
+      "scientificName": "Sturnella lilianae",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Troupials and Allies",
+      "familyCode": "troupialsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Chihuahuan Meadowlark (Sturnella lilianae) is a meadowlark recorded in the United States. Field recognition often comes from meadowlark shape, yellow underparts, black V on breast, pale face pattern, and flute-like song in grassland. In the U.S. source data, it appeared in 3 state or DC summaries, including AZ, NM, TX. It is most associated with Grasslands:  Temperate, and local season should be checked before trip planning.",
+        "classification": "The Chihuahuan Meadowlark belongs to the family Troupials and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for meadowlark shape, yellow underparts, black V on breast, pale face pattern, and flute-like song in grassland. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 3 state or DC summary files: AZ, NM, TX. It is most often linked with Grasslands:  Temperate. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Grasslands:  Temperate, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "blctit4": {
+      "speciesCode": "blctit4",
+      "commonName": "Black-crested Titmouse",
+      "scientificName": "Baeolophus atricristatus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tits, Chickadees, and Titmice",
+      "familyCode": "titschickadeesandtitmice",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Black-crested Titmouse (Baeolophus atricristatus) is a titmouse recorded in the United States. Field recognition often comes from gray titmouse body, bold black crest, pale forehead, and active movement in oak or mesquite woodland. In the U.S. source data, it appeared in 2 state or DC summaries, including OK, TX. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Black-crested Titmouse belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for gray titmouse body, bold black crest, pale forehead, and active movement in oak or mesquite woodland. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: OK, TX. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Dry, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "britit": {
+      "speciesCode": "britit",
+      "commonName": "Bridled Titmouse",
+      "scientificName": "Baeolophus wollweberi",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tits, Chickadees, and Titmice",
+      "familyCode": "titschickadeesandtitmice",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Bridled Titmouse (Baeolophus wollweberi) is a titmouse recorded in the United States. Field recognition often comes from small crested titmouse with bold black-and-white face pattern and buffy flanks. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Bridled Titmouse belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small crested titmouse with bold black-and-white face pattern and buffy flanks. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "bubfly": {
+      "speciesCode": "bubfly",
+      "commonName": "Buff-breasted Flycatcher",
+      "scientificName": "Empidonax fulvifrons",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tyrant Flycatchers",
+      "familyCode": "tyrantflycatchers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Buff-breasted Flycatcher (Empidonax fulvifrons) is a flycatcher recorded in the United States. Field recognition often comes from small empidonax flycatcher shape, buffy breast and wingbars, and upright perch-and-sally feeding. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The Buff-breasted Flycatcher belongs to the family Tyrant Flycatchers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small empidonax flycatcher shape, buffy breast and wingbars, and upright perch-and-sally feeding. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "caltow": {
+      "speciesCode": "caltow",
+      "commonName": "California Towhee",
+      "scientificName": "Melozone crissalis",
+      "orderName": "Passeriformes",
+      "familyCommonName": "New World Sparrows",
+      "familyCode": "newworldsparrows",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The California Towhee (Melozone crissalis) is a towhee recorded in the United States. Field recognition often comes from large plain towhee shape, brown body, warm cinnamon undertail coverts, and ground-scratching behavior. In the U.S. source data, it appeared in 2 state or DC summaries, including CA, OR. It is most associated with Aridlands:  Chaparral, and local season should be checked before trip planning.",
+        "classification": "The California Towhee belongs to the family New World Sparrows in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large plain towhee shape, brown body, warm cinnamon undertail coverts, and ground-scratching behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CA, OR. It is most often linked with Aridlands:  Chaparral. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Aridlands:  Chaparral, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "oaktit": {
+      "speciesCode": "oaktit",
+      "commonName": "Oak Titmouse",
+      "scientificName": "Baeolophus inornatus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tits, Chickadees, and Titmice",
+      "familyCode": "titschickadeesandtitmice",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Oak Titmouse (Baeolophus inornatus) is a titmouse recorded in the United States. Field recognition often comes from plain gray-brown titmouse, short crest, small bill, and oak woodland association. In the U.S. source data, it appeared in 2 state or DC summaries, including CA, OR. It is most associated with Forests:  Temperate Western, and local season should be checked before trip planning.",
+        "classification": "The Oak Titmouse belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for plain gray-brown titmouse, short crest, small bill, and oak woodland association. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CA, OR. It is most often linked with Forests:  Temperate Western. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Western, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "redcro9": {
+      "speciesCode": "redcro9",
+      "commonName": "Cassia Crossbill",
+      "scientificName": "Loxia sinesciuris",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Finches, Euphonias, and Allies",
+      "familyCode": "fincheseuphoniasandallie",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Cassia Crossbill (Loxia sinesciuris) is a crossbill recorded in the United States. Field recognition often comes from crossed bill, reddish male or yellowish female plumage, and strong association with lodgepole pine cones. In the U.S. source data, it appeared in 1 state or DC summaries, including ID. It is most associated with Forests:  Temperate Western, and local season should be checked before trip planning.",
+        "classification": "The Cassia Crossbill belongs to the family Finches, Euphonias, and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for crossed bill, reddish male or yellowish female plumage, and strong association with lodgepole pine cones. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: ID. It is most often linked with Forests:  Temperate Western. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Temperate Western, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Endangered",
+          "populationTrend": "Range-restricted and closely tied to a narrow cone-crop system, making it vulnerable to habitat and climate shifts.",
+          "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+          "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+        }
+      }
+    },
+    "hawama": {
+      "speciesCode": "hawama",
+      "commonName": "Hawaii Amakihi",
+      "scientificName": "Chlorodrepanis virens",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Hawaiian Honeycreepers",
+      "familyCode": "hawaiianhoneycreepers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Hawaii Amakihi (Chlorodrepanis virens) is a honeycreeper recorded in the United States. Field recognition often comes from small Hawaiian honeycreeper shape, greenish to yellowish plumage, decurved bill, and active foraging in native trees. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Hawaii Amakihi belongs to the family Hawaiian Honeycreepers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small Hawaiian honeycreeper shape, greenish to yellowish plumage, decurved bill, and active foraging in native trees. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "mexchi": {
+      "speciesCode": "mexchi",
+      "commonName": "Mexican Chickadee",
+      "scientificName": "Poecile sclateri",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Tits, Chickadees, and Titmice",
+      "familyCode": "titschickadeesandtitmice",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Mexican Chickadee (Poecile sclateri) is a chickadee recorded in the United States. Field recognition often comes from small chickadee shape, black cap and bib, pale cheek, gray back, and mountain conifer habitat. In the U.S. source data, it appeared in 1 state or DC summaries, including AZ. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The Mexican Chickadee belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small chickadee shape, black cap and bib, pale cheek, gray back, and mountain conifer habitat. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: AZ. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "categr": {
+      "speciesCode": "categr",
+      "commonName": "Western/Eastern Cattle Egret",
+      "scientificName": "Bubulcus ibis/coromandus",
+      "orderName": "Pelecaniformes",
+      "familyCommonName": "Herons, Egrets, and Bitterns",
+      "familyCode": "heronsegretsandbitterns",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Western/Eastern Cattle Egret is an eBird composite or slash taxon used when closely related pheasant forms are not separated confidently. Field recognition often comes from small white egret shape, short neck, yellowish or orange bill in many seasons, and open pasture or wet field feeding. In the U.S. source data, it appeared in 15 state or DC summaries, including AL, AR, AZ, CA, FL, GA, HI, KS, LA, MS, NC, OK, SC, SD, and 1 more. It is most associated with Grasslands:  Temperate and Grasslands:  Temperate, and local season should be checked before trip planning.",
+        "classification": "The Western/Eastern Cattle Egret belongs to the family Herons, Egrets, and Bitterns in the order Pelecaniformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small white egret shape, short neck, yellowish or orange bill in many seasons, and open pasture or wet field feeding. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 15 state or DC summary files: AL, AR, AZ, CA, FL, GA, HI, KS, LA, MS, NC, OK, SC, SD, and 1 more. It is most often linked with Grasslands:  Temperate and Grasslands:  Temperate. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Grasslands:  Temperate and Grasslands:  Temperate, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "buthum": {
+      "speciesCode": "buthum",
+      "commonName": "Blue-throated Mountain-gem",
+      "scientificName": "Lampornis clemenciae",
+      "orderName": "Apodiformes",
+      "familyCommonName": "Hummingbirds",
+      "familyCode": "hummingbirds",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Blue-throated Mountain-gem (Lampornis clemenciae) is a hummingbird recorded in the United States. Field recognition often comes from large hummingbird size, white facial stripe, blue throat in males, green upperparts, and strong hovering flight. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, TX. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+        "classification": "The Blue-throated Mountain-gem belongs to the family Hummingbirds in the order Apodiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large hummingbird size, white facial stripe, blue throat in males, green upperparts, and strong hovering flight. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, TX. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding usually centers on sheltered shrubs, trees, or woodland edges near nectar and insect resources. The female builds a small cup nest bound with plant fibers and spider silk, usually laying two tiny eggs. In the United States, timing varies by region and elevation, and suitable Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland can be important.",
+        "dietFeeding": "It feeds mainly on nectar from tubular flowers and also takes tiny insects and spiders for protein. It often hovers at flowers, visits flowering shrubs or trees, and may defend good nectar sources from other hummingbirds.",
+        "behavior": "It is quick, alert, and often territorial around good flowers or feeders. Males may use display flights, while both sexes make fast direct flights between feeding and resting perches.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "yeejun": {
+      "speciesCode": "yeejun",
+      "commonName": "Yellow-eyed Junco",
+      "scientificName": "Junco phaeonotus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "New World Sparrows",
+      "familyCode": "newworldsparrows",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Yellow-eyed Junco (Junco phaeonotus) is a junco recorded in the United States. Field recognition often comes from gray junco shape, bright yellow eyes, reddish back patch, white outer tail feathers, and highland pine association. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+        "classification": "The Yellow-eyed Junco belongs to the family New World Sparrows in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for gray junco shape, bright yellow eyes, reddish back patch, white outer tail feathers, and highland pine association. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Highland and Forests:  Mesoamerican Pine-Oak, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "chemun": {
+      "speciesCode": "chemun",
+      "commonName": "Chestnut Munia",
+      "scientificName": "Lonchura atricapilla",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Waxbills and Allies",
+      "familyCode": "waxbillsandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Chestnut Munia (Lonchura atricapilla) is a munia recorded in the United States. Field recognition often comes from small finch-like munia shape, chestnut body, dark head, thick pale bill, and flocking behavior in grasses. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Chestnut Munia belongs to the family Waxbills and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small finch-like munia shape, chestnut body, dark head, thick pale bill, and flocking behavior in grasses. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "gryfra": {
+      "speciesCode": "gryfra",
+      "commonName": "Gray Francolin",
+      "scientificName": "Ortygornis pondicerianus",
+      "orderName": "Galliformes",
+      "familyCommonName": "Pheasants, Grouse, and Allies",
+      "familyCode": "pheasantsgrouseandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Gray Francolin (Ortygornis pondicerianus) is a francolin recorded in the United States. Field recognition often comes from chunky gamebird shape, gray-brown body, rufous neck collar, barred flanks, and strong running behavior. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Gray Francolin belongs to the family Pheasants, Grouse, and Allies in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for chunky gamebird shape, gray-brown body, rufous neck collar, barred flanks, and strong running behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "purswa3": {
+      "speciesCode": "purswa3",
+      "commonName": "Gray-headed Swamphen",
+      "scientificName": "Porphyrio poliocephalus",
+      "orderName": "Gruiformes",
+      "familyCommonName": "Rails, Gallinules, and Coots",
+      "familyCode": "railsgallinulesandcoots",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Gray-headed Swamphen (Porphyrio poliocephalus) is a swamphen recorded in the United States. Field recognition often comes from large rail-like swamphen shape, purple-blue body, red bill and frontal shield, and long toes in marshes. In the U.S. source data, it appeared in 1 state or DC summaries, including FL. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Gray-headed Swamphen belongs to the family Rails, Gallinules, and Coots in the order Gruiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for large rail-like swamphen shape, purple-blue body, red bill and frontal shield, and long toes in marshes. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: FL. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "grnpar": {
+      "speciesCode": "grnpar",
+      "commonName": "Green Parakeet",
+      "scientificName": "Psittacara holochlorus",
+      "orderName": "Psittaciformes",
+      "familyCommonName": "New World and African Parrots",
+      "familyCode": "newworldandafricanparrot",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Green Parakeet (Psittacara holochlorus) is a parakeet recorded in the United States. Field recognition often comes from medium green parakeet shape, long pointed tail, red face patches, and noisy flock flight. In the U.S. source data, it appeared in 1 state or DC summaries, including TX. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Green Parakeet belongs to the family New World and African Parrots in the order Psittaciformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for medium green parakeet shape, long pointed tail, red face patches, and noisy flock flight. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: TX. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Dry, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "rubrob": {
+      "speciesCode": "rubrob",
+      "commonName": "Rufous-backed Robin",
+      "scientificName": "Turdus rufopalliatus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "Thrushes and Allies",
+      "familyCode": "thrushesandallies",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Rufous-backed Robin (Turdus rufopalliatus) is a robin recorded in the United States. Field recognition often comes from robin shape, gray-brown upperparts, rufous back and underparts, pale throat, and upright posture. In the U.S. source data, it appeared in 1 state or DC summaries, including AZ. It is most associated with Forests:  Tropical Dry, and local season should be checked before trip planning.",
+        "classification": "The Rufous-backed Robin belongs to the family Thrushes and Allies in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for robin shape, gray-brown upperparts, rufous back and underparts, pale throat, and upright posture. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: AZ. It is most often linked with Forests:  Tropical Dry. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Tropical Dry, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "warwhe1": {
+      "speciesCode": "warwhe1",
+      "commonName": "Warbling White-eye",
+      "scientificName": "Zosterops japonicus",
+      "orderName": "Passeriformes",
+      "familyCommonName": "White-eyes",
+      "familyCode": "whiteeyes",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_approved_57_20260820",
+      "reviewStatus": "draft_needs_naturalist_review",
+      "aliasOf": "",
+      "profile": {
+        "overview": "The Warbling White-eye (Zosterops japonicus) is a white-eye recorded in the United States. Field recognition often comes from small white-eye shape, olive-green upperparts, pale underparts, clear white eye-ring, and active flocking behavior. In the U.S. source data, it appeared in 1 state or DC summaries, including HI. It is most associated with suitable local habitat, and local season should be checked before trip planning.",
+        "classification": "The Warbling White-eye belongs to the family White-eyes in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for small white-eye shape, olive-green upperparts, pale underparts, clear white eye-ring, and active flocking behavior. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 1 state or DC summary files: HI. It is most often linked with suitable local habitat. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "It has both breeding and nonbreeding presence in the United States, with movements and seasonal abundance varying by region.",
+        "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near suitable local habitat, so local habitat quality strongly affects nesting success.",
+        "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+        "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "yelwar": {
+      "speciesCode": "yelwar",
+      "commonName": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "orderName": "Passeriformes",
+      "familyCommonName": "New World Warblers",
+      "familyCode": "newworldwarblers",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_alias_review_20260820",
+      "reviewStatus": "alias_review_exact_code_bundle",
+      "aliasOf": "manwar1",
+      "profile": {
+        "overview": "The Yellow Warbler (Setophaga petechia) is a warbler recorded in the United States. Field recognition often comes from bright yellow warbler body, fine reddish streaks on breeding males, rounded head, plain wings, and active foraging in willows or wet thickets. In the U.S. source data, it appeared in 49 state or DC summaries, including AK, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, and 35 more. It is most associated with Forests:  Temperate Generalist and Wetlands:  Generalist, and local season should be checked before trip planning.",
+        "classification": "The Yellow Warbler belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+        "identification": "Look for bright yellow warbler body, fine reddish streaks on breeding males, rounded head, plain wings, and active foraging in willows or wet thickets. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+        "rangeHabitat": "In the United States, this taxon was found in 49 state or DC summary files: AK, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, and 35 more. It is most often linked with Forests:  Temperate Generalist and Wetlands:  Generalist. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+        "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+        "breeding": "Breeding usually involves a small cup nest placed in vegetation, shrubs, low trees, or woodland cover depending on the species. Insect abundance is important for raising young. In the United States, timing and habitat use vary by region, especially around Forests:  Temperate Generalist and Wetlands:  Generalist.",
+        "dietFeeding": "It feeds mainly on insects and spiders, taken from leaves, twigs, flowers, and bark. During migration or winter it may also take some berries or nectar when available.",
+        "behavior": "It is active and often restless, moving through foliage while gleaning insects. Songs and call notes are important for detection, especially during breeding or migration.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+        }
+      }
+    },
+    "eletro": {
+      "speciesCode": "eletro",
+      "commonName": "Elegant Trogon",
+      "scientificName": "Trogon elegans",
+      "orderName": "Trogoniformes",
+      "familyCommonName": "Trogons",
+      "familyCode": "trogons",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_alias_review_20260820",
+      "reviewStatus": "alias_review_exact_code_bundle",
+      "aliasOf": "eletro2",
+      "profile": {
+        "overview": "The Elegant Trogon (Trogon elegans) is a striking Neotropical bird in the trogon family. Males have a metallic green head and back, a bright red belly, and a long patterned tail; females are mainly brown with similar red underparts. It inhabits dry and moist woodland, forest edges, gallery forest, and evergreen forest from Central America into northwestern Costa Rica. It often perches quietly in the canopy before making short flights to capture prey or reach fruit.",
+        "classification": "The Elegant Trogon belongs to the family Trogonidae and the order Trogoniformes. The Costa Rican population is generally assigned to the subspecies Trogon elegans lubricus.",
+        "identification": "This medium-sized trogon has a yellow bill, a bare orange eye-ring, and a broad white breast band. The male is green above with a red breast and belly, while the female is brown where the male is green and usually shows a paler, broken eye-ring. The tail has contrasting dark and pale barring, and the central tail feathers can appear greenish rather than strongly copper-colored. Its relaxed posture and slow, deliberate movements are characteristic.",
+        "rangeHabitat": "The Elegant Trogon ranges through parts of Guatemala, El Salvador, Honduras, Nicaragua, and northwestern Costa Rica. In Costa Rica it is a resident, locally uncommon to locally common species concentrated in the northern Pacific lowlands and foothills, especially Guanacaste and nearby areas north of the Gulf of Nicoya. It uses dry forest, gallery forest, evergreen woodland, hillsides, ravines, gullies, and forest edges, generally from low elevations to about 750 meters in the Guanacaste highlands.",
+        "migrationStatus": "In Costa Rica, the Elegant Trogon is considered resident and may be seen throughout the year. Unlike some northern populations formerly included under this name, the Costa Rican population is not regarded as a regular long-distance migrant; local movements may occur in response to food and seasonal conditions.",
+        "breeding": "Breeding in Costa Rica occurs mainly from April through July, and pairs may produce two broods. The nest is placed in a natural cavity, a decaying stump, or an abandoned woodpecker hole, usually a few meters above the ground. The cavity is often mostly unlined. A clutch commonly contains about three white or bluish-white eggs, sometimes up to four. Both adults participate in caring for the nest and young.",
+        "dietFeeding": "The Elegant Trogon eats a mixture of fruit and animal prey. Its diet includes berries and other small fruits, along with insects such as grasshoppers, mantids, caterpillars, moths, and beetles. It usually watches from a shaded perch and makes short flights to seize insects from foliage or the air, or to pick fruit from trees and shrubs. It may descend lower in the vegetation while feeding.",
+        "behavior": "This species is usually encountered alone or in pairs and often remains motionless in the upper canopy, where its colors can be surprisingly difficult to detect. Males may defend territories with visual displays and bill snapping. Its soft, repetitive song is most often heard during the breeding season. It regularly uses forest openings, edges, and clearings for foraging, while returning to taller trees for resting and courtship.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "A reliable current population trend for the present taxonomic concept is not clearly established."
+        }
+      }
+    },
+    "relpar": {
+      "speciesCode": "relpar",
+      "commonName": "Red-lored Parrot",
+      "scientificName": "Amazona autumnalis",
+      "orderName": "Psittaciformes",
+      "familyCommonName": "New World and African Parrots",
+      "familyCode": "newworldandafricanparrot",
+      "familyScientificName": "",
+      "taxonomicOrder": 0,
+      "profileSource": "local_append_usa_alias_review_20260820",
+      "reviewStatus": "alias_review_exact_code_bundle",
+      "aliasOf": "relpar10",
+      "profile": {
+        "overview": "The Red-lored Amazon is a medium-sized, short-tailed parrot of humid tropical forests and wooded landscapes. It is mainly green, with a red patch above the bill, blue feathers on the crown and yellow cheek or ear-coverts. This social Amazon often travels in pairs or small groups and has a loud, distinctive flight call. In Costa Rica, it is a resident species associated especially with wet lowlands and foothills on the Caribbean side.",
+        "classification": "The Red-lored Amazon belongs to the parrot family Psittacidae and the genus Amazona. Its scientific name is Amazona autumnalis.",
+        "identification": "Adults are mostly bright green with a red forehead and red at the base of the upper mandible. The crown and rear of the head are commonly blue, while the cheeks and ear-coverts are yellow. The bill is horn-colored with darker areas, and the wings show red, yellow, and blue markings in flight. It is fairly large and heavily built, with a short tail. Juveniles generally show less extensive facial coloration.",
+        "rangeHabitat": "The species ranges from eastern and southern Mexico through Central America to northern South America. In Costa Rica, it is a resident of humid Caribbean lowlands and adjacent foothills, occurring across much of the Caribbean region and locally reaching about 800 meters elevation. It uses evergreen and semi-deciduous forest, forest edges, river corridors, plantations, gardens, and other partly wooded areas. Although it can tolerate some habitat alteration, it depends on trees for food, shelter, and nesting.",
+        "migrationStatus": "Resident in Costa Rica and generally nonmigratory. Local movements may occur between feeding and roosting areas, especially where food availability changes.",
+        "breeding": "Red-lored Amazons nest in tree cavities, including natural hollows and sometimes cavities formed by broken branches. The female typically lays a small clutch of white eggs and incubates them while the male helps by delivering food. Both parents feed the nestlings. Breeding is associated with the local rainy-season cycle in parts of its range, but timing varies geographically. Nesting trees are vulnerable to removal, and suitable cavities may be limited in disturbed landscapes.",
+        "dietFeeding": "Its diet consists mainly of fruits, seeds, nuts, berries, flowers, and other plant material. It may also take cultivated fruits and visit gardens or agricultural areas near forest. The strong, hooked bill is used to open hard fruits and seeds. Red-lored Amazons commonly feed in trees, often in pairs or groups, and may make conspicuous flights between feeding sites and communal roosts.",
+        "behavior": "This is a social and vocal parrot, usually seen alone, in pairs, or in small to moderately sized groups. Flocks may gather at productive fruiting trees and traditional roosts. Its direct, strong flight is accompanied by loud calls, especially when birds are disturbed or approaching a roost. Pair bonds are maintained throughout the year, and individuals may use repeated routes between feeding, nesting, and sleeping areas.",
+        "conservation": {
+          "status": "Least Concern",
+          "populationTrend": "The global population is considered to be decreasing, although the species remains widespread and is not currently classified as threatened at the global level."
+        }
+      }
+    }
+  }
+}

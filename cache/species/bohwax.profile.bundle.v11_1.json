@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Bohemian Waxwing is a sleek crested songbird that travels in flocks and feeds heavily on berries. Field recognition often comes from silky plumage, swept-back crest, black mask, and red waxy wing tips. It is found around berry-rich trees, boreal forest edge, towns, orchards, riparian areas, and open woodland. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Bohemian Waxwing (Bombycilla garrulus) belongs to the family Waxwings in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for silky plumage, swept-back crest, black mask, and red waxy wing tips. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It follows fruit and berry crops across boreal forest, towns, orchards, and open woodland. In Canada, numbers can shift greatly as flocks track food through the season.",
+    "migrationStatus": "Nomadic to irruptive, with movements shaped strongly by berry crops and winter food.",
+    "breeding": "It builds a cup nest in a tree or shrub, often in boreal or northern woodland. Breeding timing can follow local food conditions, especially insects and early fruit.",
+    "dietFeeding": "It feeds heavily on berries and fruit, especially in fall and winter, and catches flying insects during warmer months. Flocks can strip fruiting trees quickly.",
+    "behavior": "It is social and usually seen in flocks. Birds pass berries, perch closely, give high calls, and move quickly between fruiting trees.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

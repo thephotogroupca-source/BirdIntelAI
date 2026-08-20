@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Whiskered Screech-Owl (Megascops trichopsis) is a owl recorded in the United States. Field recognition often comes from small owl size, ear tufts, yellow eyes, dark streaking, and a whistled or trilled voice in oak-pine canyon habitat. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak, and local season should be checked before trip planning.",
+    "classification": "The Whiskered Screech-Owl belongs to the family Owls in the order Strigiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for small owl size, ear tufts, yellow eyes, dark streaking, and a whistled or trilled voice in oak-pine canyon habitat. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding may use natural cavities, old woodpecker holes, nest boxes, or sheltered sites depending on local habitat. Owls usually do not build elaborate nests. Nesting success depends on safe cavities or cover and reliable prey near Forests:  Mesoamerican Pine-Oak.",
+    "dietFeeding": "It hunts small mammals, birds, insects, reptiles, or other small animals, depending on local prey. Hunting is mostly from a perch, with short flights to capture prey in woodland or edge habitat.",
+    "behavior": "It is most active at dusk, night, or early morning. It often remains hidden by day, so voice, habitat, and roosting posture are important clues.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

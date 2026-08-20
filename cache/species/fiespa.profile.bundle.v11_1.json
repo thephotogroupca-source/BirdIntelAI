@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Field Sparrow is a ground-feeding songbird with patterned plumage and a seed-focused bill. Field recognition often comes from patterned brown plumage, conical bill, and ground-feeding behavior. It is found in grassland, tundra edge, brush, weedy fields, marsh edge, forest openings, gardens, and migration stopovers. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Field Sparrow (Spizella pusilla) belongs to the family New World Sparrows in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for patterned brown plumage, conical bill, and ground-feeding behavior. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses open or brushy habitats such as grassland, tundra edge, shrubby fields, marsh edge, forest openings, or weedy migration areas. In Canada, many sparrows and buntings are seasonal breeders or migrants.",
+    "migrationStatus": "Generally migratory in Canada, though timing, distance, and winter range vary by species and region.",
+    "breeding": "It usually builds a cup nest on or near the ground, in shrubs, grasses, reeds, or low vegetation. Breeding is timed to insect abundance, because young are fed many insects.",
+    "dietFeeding": "It eats seeds, small insects, and other invertebrates. Seeds dominate much of the nonbreeding season, while insects are especially important for nestlings.",
+    "behavior": "It spends much time on or near the ground, moving through low cover. Many give sharp call notes when flushed. Males sing from exposed perches or use display flights in breeding season.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

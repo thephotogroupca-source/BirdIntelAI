@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Herring Gull (Larus argentatus) is a gull recorded in the United States. Field recognition often comes from large gull size, pale gray mantle, white head in breeding adults, pink legs, and red spot on the lower bill. In the U.S. source data, it appeared in 42 state or DC summaries, including AK, AL, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, and 28 more. It is most associated with Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers, and local season should be checked before trip planning.",
+    "classification": "The Herring Gull belongs to the family Gulls, Terns, and Skimmers in the order Charadriiformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for large gull size, pale gray mantle, white head in breeding adults, pink legs, and red spot on the lower bill. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 42 state or DC summary files: AK, AL, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, and 28 more. It is most often linked with Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Coasts:  Beach and Estuary and Wetlands:  Lakes and Rivers, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+    "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

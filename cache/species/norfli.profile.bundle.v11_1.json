@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Northern Flicker is a tree-climbing bird with a chisel-like bill, stiff tail, and strong feet. Field recognition often comes from large woodpecker shape, spotted underparts, and flashing wing or tail color. It is found in forests, wooded parks, orchards, burns, mature trees, snags, forest edge, and sometimes open ground. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Northern Flicker (Colaptes auratus) belongs to the family Woodpeckers in the order Piciformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for large woodpecker shape, spotted underparts, and flashing wing or tail color. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It is associated with woodland, mature trees, snags, orchards, parks, burns, or forest edge depending on region and habitat. In Canada, dead wood and cavity trees are often important habitat features.",
+    "migrationStatus": "Mostly resident or short-distance seasonal, though some species wander or migrate more regularly.",
+    "breeding": "It excavates or uses a tree cavity. Dead or softened wood is often important. Both adults may help excavate, incubate, and feed young, and old cavities later help other wildlife.",
+    "dietFeeding": "It feeds on insects, larvae, ants, sap, fruit, nuts, or seeds depending on region and habitat and season. It probes, drills, scales bark, or feeds on the ground.",
+    "behavior": "It climbs trunks and branches using its feet and tail as support. Drumming, tapping, and calls help mark territory and attract mates.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

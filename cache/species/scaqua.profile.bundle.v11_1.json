@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Scaled Quail (Callipepla squamata) is a quail recorded in the United States. Field recognition often comes from scaled gray-brown body pattern, short crest, pale-tipped feathers, and compact quail shape. In the U.S. source data, it appeared in 6 state or DC summaries, including AZ, CO, KS, NM, OK, TX. It is most associated with Grasslands:  Chihuahuan and Aridlands:  Desert Scrub, and local season should be checked before trip planning.",
+    "classification": "The Scaled Quail belongs to the family New World Quail in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for scaled gray-brown body pattern, short crest, pale-tipped feathers, and compact quail shape. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 6 state or DC summary files: AZ, CO, KS, NM, OK, TX. It is most often linked with Grasslands:  Chihuahuan and Aridlands:  Desert Scrub. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding is ground based. The nest is usually a shallow scrape hidden in grass or shrubs, lined with plant material, and the chicks leave the nest soon after hatching. Good cover, seeds, insects, and nearby escape habitat are important in Grasslands:  Chihuahuan and Aridlands:  Desert Scrub.",
+    "dietFeeding": "It eats seeds, leaves, buds, fruits, and insects, with young birds taking more animal food. Most feeding is done on the ground while walking through grass, desert scrub, or brushy cover.",
+    "behavior": "It is usually seen on the ground, walking or running through cover and flushing only when pressed. Family groups or coveys may stay together outside the breeding season.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

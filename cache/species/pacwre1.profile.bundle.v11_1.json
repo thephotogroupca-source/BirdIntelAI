@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Pacific Wren is a small energetic songbird with a strong voice and a tendency to stay low in cover. Field recognition often comes from small size, cocked tail, barred brown plumage, and loud song. It is found in brush piles, marshes, reeds, forest floor, riparian thickets, gardens, and dense woodland cover. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Pacific Wren (Troglodytes pacificus) belongs to the family Wrens in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for small size, cocked tail, barred brown plumage, and loud song. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses dense cover such as marsh vegetation, brush, riparian thickets, forest understory, gardens, or fallen logs depending on region and habitat. In Canada, wrens can be resident, migratory, or regional.",
+    "migrationStatus": "Resident to migratory depending on region and habitat and region; northern populations are usually more seasonal.",
+    "breeding": "It nests in cavities, domed nests, marsh vegetation, brush, or sheltered crevices depending on region and habitat. Males may build dummy nests, and pairs feed young many insects.",
+    "dietFeeding": "It eats insects, spiders, larvae, and other small invertebrates. It probes bark, leaf litter, reeds, brush, and crevices while staying close to cover.",
+    "behavior": "It is active and often secretive, but its song can be loud and persistent. It flicks or cocks the tail, slips through cover, and defends nesting areas strongly.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

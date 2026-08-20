@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Yellow Warbler (Setophaga petechia) is a warbler recorded in the United States. Field recognition often comes from bright yellow warbler body, fine reddish streaks on breeding males, rounded head, plain wings, and active foraging in willows or wet thickets. In the U.S. source data, it appeared in 49 state or DC summaries, including AK, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, and 35 more. It is most associated with Forests:  Temperate Generalist and Wetlands:  Generalist, and local season should be checked before trip planning.",
+    "classification": "The Yellow Warbler belongs to the family New World Warblers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for bright yellow warbler body, fine reddish streaks on breeding males, rounded head, plain wings, and active foraging in willows or wet thickets. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 49 state or DC summary files: AK, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, and 35 more. It is most often linked with Forests:  Temperate Generalist and Wetlands:  Generalist. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+    "breeding": "Breeding usually involves a small cup nest placed in vegetation, shrubs, low trees, or woodland cover depending on the species. Insect abundance is important for raising young. In the United States, timing and habitat use vary by region, especially around Forests:  Temperate Generalist and Wetlands:  Generalist.",
+    "dietFeeding": "It feeds mainly on insects and spiders, taken from leaves, twigs, flowers, and bark. During migration or winter it may also take some berries or nectar when available.",
+    "behavior": "It is active and often restless, moving through foliage while gleaning insects. Songs and call notes are important for detection, especially during breeding or migration.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

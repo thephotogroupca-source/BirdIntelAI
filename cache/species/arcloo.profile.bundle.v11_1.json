@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Arctic Loon is a large diving waterbird with a long body, dagger-like bill, and strong underwater swimming ability. Field recognition often comes from low floating body, dagger bill, striking breeding pattern, and haunting calls. It is found on freshwater breeding lakes, northern ponds, large lakes, reservoirs, and coastal waters outside breeding season. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Arctic Loon (Gavia arctica) belongs to the family Loons in the order Gaviiformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for low floating body, dagger bill, striking breeding pattern, and haunting calls. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses freshwater lakes and northern wetlands for breeding, then larger lakes or marine waters outside breeding season. In Canada, loons are closely tied to clean water and healthy fish populations.",
+    "migrationStatus": "Migratory, usually breeding on freshwater lakes and wintering on larger lakes, reservoirs, or coastal waters.",
+    "breeding": "It nests close to water, often on a small island, floating vegetation, or shoreline mound. Clutches are usually small, often one or two eggs. Chicks swim soon after hatching and are fed by the adults.",
+    "dietFeeding": "It eats mostly fish, plus aquatic insects, crustaceans, amphibians, and other small aquatic prey. It dives from the surface and swims underwater using its feet.",
+    "behavior": "It is graceful on water but awkward on land because its legs sit far back. Calls, displays, and territorial behavior are important on breeding lakes.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Black-capped Chickadee is a small active woodland songbird with quick movements and a bold head pattern. Field recognition often comes from small rounded body, black-and-white head pattern, and active calls. It is found in deciduous, mixed, or coniferous woodland, parks, wooded yards, boreal forest, and feeder areas. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Black-capped Chickadee (Poecile atricapillus) belongs to the family Tits, Chickadees, and Titmice in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for small rounded body, black-and-white head pattern, and active calls. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses forests, wooded edges, parks, and yards. In Canada, chickadees are familiar residents in many regions, while Old World tits are mostly rare, introduced, or localized records depending on context.",
+    "migrationStatus": "Mostly resident or short-distance seasonal, with winter flocking and some wandering when food conditions change.",
+    "breeding": "It nests in cavities, nest boxes, or natural holes, often lining the nest with soft plant material, fur, or feathers. Adults feed nestlings many caterpillars and small insects.",
+    "dietFeeding": "It eats insects, spiders, seeds, and nuts. It searches bark, twigs, buds, cones, and leaves, often hanging upside down. In winter it may cache food and visit feeders.",
+    "behavior": "It is active, vocal, and social outside breeding season. It gives frequent contact calls, joins mixed flocks, and investigates branches carefully for hidden food.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

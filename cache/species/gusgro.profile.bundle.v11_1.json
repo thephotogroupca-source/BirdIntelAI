@@ -1,0 +1,19 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Gunnison Sage-Grouse (Centrocercus minimus) is a pheasant recorded in the United States. Field recognition often comes from sage-grouse shape, white breast, dark belly, spiky tail, yellow air sacs in displaying males, and elaborate lek display. In the U.S. source data, it appeared in 2 state or DC summaries, including CO, UT. It is most associated with Aridlands:  Sagebrush, and local season should be checked before trip planning.",
+    "classification": "The Gunnison Sage-Grouse belongs to the family Pheasants, Grouse, and Allies in the order Galliformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for sage-grouse shape, white breast, dark belly, spiky tail, yellow air sacs in displaying males, and elaborate lek display. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: CO, UT. It is most often linked with Aridlands:  Sagebrush. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it can be resident in suitable parts of its range, although local movement may occur with food, weather, or water conditions.",
+    "breeding": "Breeding is ground based, with nests hidden in grass, sagebrush, agricultural edges, or other dense cover. Chicks are precocial and feed themselves soon after hatching, while adults rely on cover for protection. Local success depends heavily on intact Aridlands:  Sagebrush.",
+    "dietFeeding": "It feeds mostly on seeds, leaves, shoots, berries, cultivated grain, and insects. Feeding is mainly on the ground, often in grassland, shrubland, farm edges, or open woodland.",
+    "behavior": "It spends much time walking in cover and usually flushes with loud wingbeats when disturbed. Males can be conspicuous during display, while females remain more hidden around nesting cover.",
+    "conservation": {
+      "status": "Endangered",
+      "populationTrend": "Very small and range-restricted, with continuing pressure from sagebrush habitat loss and fragmentation.",
+      "threats": "Important threats may include habitat loss, fragmentation, disturbance, contaminants, collisions, disease, invasive species, or changes in food supply, depending on the species and region.",
+      "howToHelp": "Protect habitat, reduce disturbance near nests and roosts, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+    }
+  }
+}

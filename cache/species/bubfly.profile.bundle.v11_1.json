@@ -1,0 +1,17 @@
+{
+  "savedAt": 1787224662379,
+  "value": {
+    "overview": "The Buff-breasted Flycatcher (Empidonax fulvifrons) is a flycatcher recorded in the United States. Field recognition often comes from small empidonax flycatcher shape, buffy breast and wingbars, and upright perch-and-sally feeding. In the U.S. source data, it appeared in 2 state or DC summaries, including AZ, NM. It is most associated with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, and local season should be checked before trip planning.",
+    "classification": "The Buff-breasted Flycatcher belongs to the family Tyrant Flycatchers in the order Passeriformes. This is the practical birding classification used for the BirdIntel profile cache.",
+    "identification": "Look for small empidonax flycatcher shape, buffy breast and wingbars, and upright perch-and-sally feeding. Also use size, posture, flight style, voice, behavior, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "In the United States, this taxon was found in 2 state or DC summary files: AZ, NM. It is most often linked with Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland. The exact range can be local, seasonal, or patchy, so recent sightings are still important for route planning and local birding decisions.",
+    "migrationStatus": "In the United States, it is at least partly migratory or seasonally mobile. Local timing varies by region, and the state summary data flagged migration-season presence.",
+    "breeding": "Breeding habits vary by local population, but nesting is tied to secure cover, suitable nest sites, and reliable food. In the United States, the state summaries place it in or near Forests:  Mesoamerican Pine-Oak and Forests:  Mesoamerican Highland, so local habitat quality strongly affects nesting success.",
+    "dietFeeding": "It feeds on a mix of insects, seeds, fruit, nectar, small animals, or plant material depending on species and season. Foraging style, bill shape, and habitat are useful clues to its diet.",
+    "behavior": "Behavior varies by season, but field detection often depends on voice, posture, movement style, and habitat. Many birds are easiest to find during feeding activity, territorial calling, or predictable local movements.",
+    "conservation": {
+      "status": "Least Concern",
+      "populationTrend": "Generally stable or not flagged here as a major global conservation concern, although local trends can vary."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Mountain Bluebird is a medium-sized songbird often associated with open woodland, gardens, and fruiting shrubs. Field recognition often comes from bright blue upperparts and perch-hunting behavior. It is found in open woodland, forest edge, lawns, meadows, orchards, nest-box trails, farms, and berry-rich areas. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Mountain Bluebird (Sialia currucoides) belongs to the family Thrushes and Allies in the order Passeriformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for bright blue upperparts and perch-hunting behavior. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It uses woodland edge, open country, gardens, farms, meadows, orchards, or fruiting shrubs depending on region and habitat. In Canada, thrushes and bluebirds vary from common breeders to regional migrants.",
+    "migrationStatus": "Generally migratory in Canada, although some individuals may winter locally where food and shelter allow.",
+    "breeding": "It builds a cup nest or uses cavities depending on region and habitat. Bluebirds readily use nest boxes, while robins often nest on ledges, branches, or human structures. Young are fed insects and soft invertebrates.",
+    "dietFeeding": "It eats insects, worms, and other invertebrates, plus fruit and berries when available. Feeding often happens from low perches, lawns, open ground, or shrubs.",
+    "behavior": "It is often detected by song, upright posture, and repeated low foraging movements. Many defend breeding territories, then shift to looser flocks or fruiting areas outside breeding season.",
+    "conservation": {
+      "status": "Least Concern"
+    }
+  }
+}

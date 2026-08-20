@@ -1,0 +1,19 @@
+{
+  "savedAt": 1787191345935,
+  "value": {
+    "overview": "The Atlantic Puffin is a stocky North Atlantic seabird built for diving and cliff-island nesting. Field recognition often comes from a stocky black-and-white body, upright stance, and large colorful breeding bill. It is found on cold coastal waters, offshore feeding areas, and breeding islands with turf, burrows, or rock crevices. In Canada, its status can be common, local, seasonal, or rare depending on the province and season, so current sightings remain important for trip planning.",
+    "classification": "The Atlantic Puffin (Fratercula arctica) belongs to the family Auks, Murres, and Puffins in the order Charadriiformes. This is the practical birding classification for quick field reference.",
+    "identification": "Look for a stocky black-and-white body, upright stance, and large colorful breeding bill. Also use size, posture, bill shape, flight style, voice, habitat, and season. Plumage can vary by sex, age, molt, and light, so the safest identification comes from combining several field marks rather than relying on one color or feature.",
+    "rangeHabitat": "It is most associated with the North Atlantic. In Canada, it is mainly an Atlantic species, using breeding islands and nearby marine feeding areas in the east, then spending much of the nonbreeding season at sea.",
+    "migrationStatus": "Migratory and highly marine outside the nesting season, dispersing across North Atlantic waters after breeding.",
+    "breeding": "It nests colonially in burrows, cliff turf, or rock crevices on offshore islands. Pairs usually lay one egg, and both adults share incubation and chick feeding. Productive nearby waters with small fish are important for breeding success.",
+    "dietFeeding": "It eats small schooling fish and marine invertebrates. It dives from the surface and swims underwater with its wings. Adults can carry several fish crosswise in the bill when feeding a chick.",
+    "behavior": "It is social at colonies and mostly oceanic away from them. Flight is direct with fast wingbeats, and feeding birds dive repeatedly in productive water. Colony attendance is strongly seasonal.",
+    "conservation": {
+      "status": "Vulnerable",
+      "populationTrend": "Decreasing globally, with concerns linked to food supply, climate change, marine conditions, and nesting colony disturbance.",
+      "threats": "Threats vary by region but may include habitat loss, disturbance, climate pressure, contaminants, collisions, and changes in prey or food supply.",
+      "howToHelp": "Protect habitat, reduce disturbance near nests and colonies, support responsible birding, keep cats indoors, reduce pesticide exposure, and follow local conservation guidance."
+    }
+  }
+}
