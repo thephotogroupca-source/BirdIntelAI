@@ -613,23 +613,11 @@ async function loadCountrySuggestions(query = "") {
     if (!query) {
       showMessage(
         countrySuggestions,
-        searchMode === "bird" && selectedBird?.kind !== "group"
-          ? "Loading countries with recent sightings..."
-          : "Loading countries..."
+        "Loading countries..."
       );
     }
 
     const params = new URLSearchParams({ q: query });
-
-    if (searchMode === "bird" && selectedBird) {
-      // Specific species can load their valid countries immediately.
-      // Groups only reach this function after the user types at least 1 character.
-      params.set("filterByBird", "true");
-      params.set("birdKind", selectedBird.kind || "species");
-      params.set("speciesCode", selectedBird.speciesCode || "");
-      params.set("groupKey", selectedBird.groupKey || "");
-      params.set("back", $("back").value);
-    }
 
     const response = await fetch(`/api/countries?${params}`);
     const payload = await response.json();
@@ -744,14 +732,6 @@ locationInput.addEventListener("input", () => {
 
 countryInput.addEventListener("focus", () => {
   if (countryInput.disabled) return;
-  if (
-    searchMode === "bird" &&
-    selectedBird &&
-    selectedBird.kind !== "group" &&
-    !countryInput.value.trim()
-  ) {
-    loadCountrySuggestions("");
-  }
 });
 
 locationInput.addEventListener("focus", () => {
@@ -766,11 +746,7 @@ $("back").addEventListener("change", () => {
   resetLocation();
   countryInput.disabled = false;
   countryInput.placeholder = "Choose or type a country";
-  if (selectedBird.kind !== "group") {
-    loadCountrySuggestions("");
-  } else {
-    clear(countrySuggestions);
-  }
+  clear(countrySuggestions);
 });
 
 birdInput.addEventListener("input", () => {

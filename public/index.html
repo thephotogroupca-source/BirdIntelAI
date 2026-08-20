@@ -8,6 +8,7 @@
   >
   <title>WKH Bird Intel AI</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="location_helper.css">
 </head>
 <body>
 <main class="shell">
@@ -119,27 +120,37 @@
           ></div>
         </div>
 
-        <div class="field autocomplete location-field">
-          <label for="locationInput">
-            Location / hotspot <span>*</span>
-          </label>
+        <div class="location-helper-cell">
+          <div class="field autocomplete location-field">
+            <label for="locationInput">
+              Location / hotspot <span>*</span>
+            </label>
 
-          <input
-            id="locationInput"
-            type="text"
-            placeholder="Select country first"
-            disabled
+            <input
+              id="locationInput"
+              type="text"
+              placeholder="Select country first"
+              disabled
+            >
+
+            <div
+              id="locationSuggestions"
+              class="suggestions hidden"
+            ></div>
+
+            <div
+              id="locationSelected"
+              class="selected"
+            ></div>
+          </div>
+
+          <button
+            id="findLocationHelperButton"
+            type="button"
+            class="primary-button find-location-button hidden"
           >
-
-          <div
-            id="locationSuggestions"
-            class="suggestions hidden"
-          ></div>
-
-          <div
-            id="locationSelected"
-            class="selected"
-          ></div>
+            Find the location
+          </button>
         </div>
 
       </div>
@@ -281,11 +292,69 @@
   <footer>
     Bird data and hotspots: eBird.
     Geographic area search: © OpenStreetMap contributors.<br>
-    Firmware: BirdIntelAI_V11.7
+    Firmware: BirdIntelAI_V11.8
   </footer>
 
 </main>
 
+<div
+  id="locationHelperModal"
+  class="location-helper-modal hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="locationHelperTitle"
+>
+  <div class="location-helper-panel">
+    <div class="location-helper-head">
+      <div>
+        <h2 id="locationHelperTitle">Recent locations</h2>
+        <p id="locationHelperSummary"></p>
+      </div>
+      <button
+        id="locationHelperClose"
+        type="button"
+        class="location-helper-close"
+        aria-label="Close"
+      >x</button>
+    </div>
+
+    <div class="location-helper-filter">
+      <label for="locationHelperFilter">
+        Filter province, state, or location
+      </label>
+      <input
+        id="locationHelperFilter"
+        type="text"
+        placeholder="e.g. NL, Newfoundland, Florida, Bonavista"
+      >
+    </div>
+
+    <div
+      id="locationHelperList"
+      class="location-helper-list"
+    ></div>
+
+    <div class="location-helper-foot">
+      <button
+        id="locationHelperPrev"
+        type="button"
+        class="clear-button"
+      >
+        Last 10
+      </button>
+      <span id="locationHelperRange"></span>
+      <button
+        id="locationHelperNext"
+        type="button"
+        class="primary-button"
+      >
+        Next 10
+      </button>
+    </div>
+  </div>
+</div>
+
 <script src="app.js"></script>
+<script src="location_helper.js"></script>
 </body>
 </html>

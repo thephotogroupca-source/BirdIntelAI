@@ -1,0 +1,151 @@
+.location-helper-cell {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) auto;
+  gap: 10px;
+  grid-column: span 2;
+  align-items: start;
+}
+
+.find-location-button {
+  align-self: start;
+  margin-top: 31px;
+  min-height: 44px;
+  white-space: nowrap;
+}
+
+.location-helper-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(0, 0, 0, .62);
+}
+
+.location-helper-modal.hidden {
+  display: none;
+}
+
+.location-helper-panel {
+  width: min(700px, 100%);
+  max-height: min(720px, 88vh);
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 8px;
+  background: #14211f;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, .36);
+}
+
+.location-helper-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, .12);
+}
+
+.location-helper-head h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.location-helper-head p {
+  margin: 6px 0 0;
+  color: rgba(244, 247, 245, .72);
+}
+
+.location-helper-filter {
+  display: grid;
+  gap: 7px;
+  padding: 14px 18px 0;
+}
+
+.location-helper-filter label {
+  font-size: 13px;
+  font-weight: 750;
+  color: rgba(244, 247, 245, .86);
+}
+
+.location-helper-filter input {
+  min-height: 40px;
+}
+
+.location-helper-close {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.location-helper-list {
+  display: grid;
+  gap: 8px;
+  padding: 16px 18px;
+}
+
+.location-helper-option {
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .06);
+  color: #fff;
+  font: inherit;
+  font-weight: 750;
+  text-align: left;
+  cursor: pointer;
+}
+
+.location-helper-option:hover,
+.location-helper-option:focus {
+  background: #bfeee4;
+  color: #17352f;
+}
+
+.location-helper-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px 18px;
+  border-top: 1px solid rgba(255, 255, 255, .12);
+}
+
+.location-helper-foot button {
+  min-width: 112px;
+}
+
+#locationHelperRange {
+  color: rgba(244, 247, 245, .72);
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .location-helper-cell {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
+
+  .find-location-button {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .location-helper-modal {
+    align-items: stretch;
+    padding: 10px;
+  }
+
+  .location-helper-panel {
+    max-height: 100%;
+  }
+}

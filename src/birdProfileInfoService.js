@@ -50,7 +50,19 @@ function normalizeStatus(value = "") {
     "data deficient": "Data Deficient", "dd": "Data Deficient",
     "not evaluated": "Not Evaluated", "ne": "Not Evaluated"
   };
-  return map[text] || String(value).trim();
+  if (map[text]) return map[text];
+  if (text.includes("critically endangered")) return "Critically Endangered";
+  if (text.includes("extinct in the wild")) return "Extinct in the Wild";
+  if (text.includes("near threatened")) return "Near Threatened";
+  if (text.includes("least concern")) return "Least Concern";
+  if (text.includes("data deficient")) return "Data Deficient";
+  if (text.includes("not evaluated")) return "Not Evaluated";
+  if (text.includes("no separate current iucn")) return "Not Evaluated";
+  if (text === "not provided") return "";
+  if (text.includes("endangered")) return "Endangered";
+  if (text.includes("vulnerable")) return "Vulnerable";
+  if (text === "extinct" || text.includes("globally extinct")) return "Extinct";
+  return String(value).trim();
 }
 
 function extractOutputText(data = {}) {
@@ -65,24 +77,12 @@ function extractOutputText(data = {}) {
   return parts.join("\n").trim();
 }
 
-async function askOpenAI({ input, instructions, useWebSearch = false, maxOutputTokens = 500 }) {
+async function askOpenAI(body) {
   const apiKey = String(process.env.OPENAI_API_KEY || "").trim();
   if (!apiKey) throw new Error("OPENAI_API_KEY is not configured for Bird Profile information.");
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), Number(process.env.BIRD_PROFILE_AI_TIMEOUT_MS || 45000));
-  const body = {
-    model: String(process.env.BIRD_PROFILE_OPENAI_MODEL || "gpt-5.6").trim(),
-    reasoning: { effort: "low" },
-    instructions,
-    input,
-    max_output_tokens: maxOutputTokens,
-    store: false
-  };
-  if (useWebSearch) {
-    body.tools = [{ type: "web_search" }];
-    body.tool_choice = "auto";
-  }
 
   try {
     const response = await fetch("https://api.openai.com/v1/responses", {
@@ -163,8 +163,9 @@ function normalizeProfileBundle(raw = {}) {
   return profile;
 }
 
-async function getBirdProfileBundle(params) {
+function buildBirdProfileRequest(params, options = {}) {
   const bird = birdLabel(params);
+  const contextCountry = String(params.contextCountry || "").trim();
 
   const instructions = [
     "You prepare one complete structured Bird Profile for Wildlife Knowledge Hub.",
@@ -189,16 +190,79 @@ async function getBirdProfileBundle(params) {
 
   const input = [
     `Selected bird: ${bird}.`,
+    contextCountry
+      ? `Regional context: ${contextCountry}. In Range & Habitat and Migration Status, explicitly explain how this species occurs in ${contextCountry} when reliable information is available.`
+      : "",
     "Prepare all Bird Profile sections and conservation information in the single JSON response."
-  ].join(" ");
+  ].filter(Boolean).join(" ");
 
-  const answer = await askOpenAI({
+  const body = {
+    model: String(options.model || process.env.BIRD_PROFILE_OPENAI_MODEL || "gpt-5.6").trim(),
+    reasoning: { effort: String(options.reasoningEffort || "low") },
     input,
     instructions,
-    useWebSearch: true,
-    maxOutputTokens: 2200
-  });
+    max_output_tokens: Number(options.maxOutputTokens || 3200),
+    text: {
+      format: {
+        type: "json_schema",
+        name: "bird_profile",
+        strict: true,
+        schema: {
+          type: "object",
+          properties: {
+            sections: {
+              type: "object",
+              properties: {
+                overview: { type: "string" },
+                classification: { type: "string" },
+                identification: { type: "string" },
+                rangeHabitat: { type: "string" },
+                migrationStatus: { type: "string" },
+                breeding: { type: "string" },
+                dietFeeding: { type: "string" },
+                behavior: { type: "string" }
+              },
+              required: [
+                "overview",
+                "classification",
+                "identification",
+                "rangeHabitat",
+                "migrationStatus",
+                "breeding",
+                "dietFeeding",
+                "behavior"
+              ],
+              additionalProperties: false
+            },
+            conservation: {
+              type: "object",
+              properties: {
+                status: { type: "string" },
+                populationTrend: { type: "string" },
+                threats: { type: "string" },
+                howToHelp: { type: "string" }
+              },
+              required: ["status", "populationTrend", "threats", "howToHelp"],
+              additionalProperties: false
+            }
+          },
+          required: ["sections", "conservation"],
+          additionalProperties: false
+        }
+      }
+    },
+    store: false
+  };
 
+  if (options.useWebSearch !== false) {
+    body.tools = [{ type: "web_search" }];
+    body.tool_choice = "auto";
+  }
+
+  return body;
+}
+
+function parseBirdProfileText(answer) {
   let raw;
   try {
     raw = JSON.parse(cleanJsonText(answer));
@@ -207,6 +271,12 @@ async function getBirdProfileBundle(params) {
   }
 
   return normalizeProfileBundle(raw);
+}
+
+async function getBirdProfileBundle(params) {
+  const answer = await askOpenAI(buildBirdProfileRequest(params));
+
+  return parseBirdProfileText(answer);
 }
 
 // Compatibility helpers. They do not create their own OpenAI requests when
@@ -222,4 +292,13 @@ async function getBirdConservation(params) {
   return profile.conservation || {};
 }
 
-module.exports = { SECTION_CONFIG, getBirdProfileBundle, getBirdProfileSection, getBirdConservation };
+module.exports = {
+  SECTION_CONFIG,
+  buildBirdProfileRequest,
+  extractOutputText,
+  normalizeProfileBundle,
+  parseBirdProfileText,
+  getBirdProfileBundle,
+  getBirdProfileSection,
+  getBirdConservation
+};

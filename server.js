@@ -28,12 +28,14 @@ const {
 } = require("./src/birdProfilePhotoService");
 
 const { SECTION_CONFIG, getBirdProfileBundle } = require("./src/birdProfileInfoService");
+const locationHelperRoutes = require("./src/locationHelperRoutes");
 
 const app = express();
 const PORT = Number(process.env.PORT || 3001);
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/api/location-helper", locationHelperRoutes);
 
 
 async function mapWithConcurrency(items, limit, mapper) {
@@ -58,7 +60,7 @@ app.get("/api/health", (req, res) => {
   res.json({
     ok: true,
     app: "BirdIntelAI",
-    version: "11.7",
+    version: "11.8",
     ebirdKeyConfigured: Boolean(process.env.EBIRD_API_KEY)
   });
 });
@@ -680,5 +682,5 @@ app.post("/api/ask-bird", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`BirdIntelAI_V11.7 running at http://localhost:${PORT}`);
+  console.log(`BirdIntelAI_V11.8 running at http://localhost:${PORT}`);
 });
