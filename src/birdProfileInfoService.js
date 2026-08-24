@@ -197,7 +197,7 @@ function buildBirdProfileRequest(params, options = {}) {
   ].filter(Boolean).join(" ");
 
   const body = {
-    model: String(options.model || process.env.BIRD_PROFILE_OPENAI_MODEL || "gpt-5.6").trim(),
+    model: String(options.model || process.env.BIRD_PROFILE_OPENAI_MODEL || "gpt-4.1-mini").trim(),
     reasoning: { effort: String(options.reasoningEffort || "low") },
     input,
     instructions,
