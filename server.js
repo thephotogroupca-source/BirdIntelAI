@@ -696,5 +696,5 @@ app.post("/api/ask-bird", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`BirdIntelAI_V11.8 running at http://localhost:${PORT}`);
+  console.log(`BirdIntelAI_V14.3 running at http://localhost:${PORT}`);
 });
