@@ -45,7 +45,7 @@ function writeLine(entry) {
     .then(() => fs.promises.appendFile(LOG_FILE, line))
     .catch(() => {});
 
-  if (process.env.EBIRD_DEBUG_CONSOLE === "true") {
+  if (process.env.EBIRD_DEBUG_CONSOLE !== "off") {
     const parts = [
       "[eBird]",
       entry.event || "",
