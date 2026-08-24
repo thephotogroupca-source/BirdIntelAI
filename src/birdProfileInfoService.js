@@ -198,7 +198,6 @@ function buildBirdProfileRequest(params, options = {}) {
 
   const body = {
     model: String(options.model || process.env.BIRD_PROFILE_OPENAI_MODEL || "gpt-4.1-mini").trim(),
-    reasoning: { effort: String(options.reasoningEffort || "low") },
     input,
     instructions,
     max_output_tokens: Number(options.maxOutputTokens || 3200),
