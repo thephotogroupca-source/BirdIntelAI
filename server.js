@@ -32,11 +32,21 @@ const locationHelperRoutes = require("./src/locationHelperRoutes");
 
 const app = express();
 const PORT = Number(process.env.PORT || 3001);
+const ENABLE_COUNTRY_AVAILABILITY_CHECKS =
+  process.env.EBIRD_COUNTRY_AVAILABILITY_CHECKS === "true";
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/api/location-helper", locationHelperRoutes);
 
+function logRouteError(route, error) {
+  if (error?.status === 429 || error?.status === 503) {
+    console.warn(`${route} failed: ${error.message}`);
+    return;
+  }
+
+  console.error(error);
+}
 
 async function mapWithConcurrency(items, limit, mapper) {
   const results = new Array(items.length);
@@ -79,7 +89,11 @@ app.get("/api/countries", async (req, res) => {
       dist = "15"
     } = req.query;
 
-    if (filterByBird === "true" && (speciesCode || groupKey)) {
+    if (
+      ENABLE_COUNTRY_AVAILABILITY_CHECKS &&
+      filterByBird === "true" &&
+      (speciesCode || groupKey)
+    ) {
       // Country autocomplete checks geographic support, not recent sightings.
       // For groups this endpoint is only called after the user types at least
       // one character, so we check only the small set of matching countries.
@@ -105,7 +119,7 @@ app.get("/api/countries", async (req, res) => {
 
     res.json({ ok: true, countries });
   } catch (error) {
-    console.error(error);
+    logRouteError("/api/countries", error);
     res.status(error.status || 500).json({
       ok: false,
       error: error.message || "Country search failed."
@@ -225,7 +239,7 @@ app.get("/api/locations", async (req, res) => {
 
     res.json({ ok: true, locations });
   } catch (error) {
-    console.error(error);
+    logRouteError("/api/locations", error);
     res.status(error.status || 500).json({
       ok: false,
       error: error.message || "Location search failed."
@@ -249,7 +263,7 @@ app.get("/api/birds", async (req, res) => {
 
     res.json({ ok: true, birds });
   } catch (error) {
-    console.error(error);
+    logRouteError("/api/birds", error);
     res.status(error.status || 500).json({
       ok: false,
       error: error.message || "Bird search failed."
@@ -341,7 +355,7 @@ app.get("/api/sightings", async (req, res) => {
       sightings
     });
   } catch (error) {
-    console.error(error);
+    logRouteError("/api/sightings", error);
     res.status(error.status || 500).json({
       ok: false,
       error: error.message || "Sightings search failed."

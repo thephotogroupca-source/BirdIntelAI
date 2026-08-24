@@ -1,4 +1,5 @@
 const EBIRD_BASE = "https://api.ebird.org/v2";
+const { logEbirdEvent, logEbirdCache } = require("./ebirdDebugLogger");
 
 const LOCATION_CACHE_MS = Number(process.env.LOCATION_HELPER_CACHE_MINUTES || 10) * 60 * 1000;
 const locationCache = new Map();
@@ -31,13 +32,40 @@ function cleanCountryCode(countryCode) {
 async function fetchEbird(url, apiKey) {
   requireKey(apiKey);
 
+  const startedAt = Date.now();
+  logEbirdEvent({
+    event: "request",
+    source: "locationHelperService",
+    url
+  });
+
   const response = await fetch(url, {
     headers: { "X-eBirdApiToken": apiKey }
   });
 
-  if (response.ok) return response.json();
+  if (response.ok) {
+    const payload = await response.json();
+    logEbirdEvent({
+      event: "success",
+      source: "locationHelperService",
+      status: response.status,
+      durationMs: Date.now() - startedAt,
+      rows: Array.isArray(payload) ? payload.length : undefined,
+      url
+    });
+    return payload;
+  }
 
   const body = await response.text();
+  logEbirdEvent({
+    event: "error",
+    source: "locationHelperService",
+    status: response.status,
+    durationMs: Date.now() - startedAt,
+    body: body.slice(0, 120),
+    url
+  });
+
   const error = new Error(
     `eBird API returned ${response.status}. ${body.slice(0, 300)}`
   );
@@ -95,10 +123,22 @@ function uniqueLocations(rows) {
 async function cachedWork(key, work) {
   const cached = locationCache.get(key);
   if (cached && Date.now() - cached.savedAt < LOCATION_CACHE_MS) {
+    logEbirdCache({
+      source: "locationHelperService",
+      endpoint: "country-species-recent",
+      result: "hit"
+    });
     return cached.value;
   }
 
-  if (inFlight.has(key)) return inFlight.get(key);
+  if (inFlight.has(key)) {
+    logEbirdCache({
+      source: "locationHelperService",
+      endpoint: "country-species-recent",
+      result: "in-flight"
+    });
+    return inFlight.get(key);
+  }
 
   const promise = Promise.resolve()
     .then(work)

@@ -1,7 +1,9 @@
 const EBIRD_BASE = "https://api.ebird.org/v2";
+const { logEbirdEvent, logEbirdCache } = require("./ebirdDebugLogger");
 
 let taxonomyCache = null;
 let taxonomyCacheAt = 0;
+let taxonomyInFlight = null;
 
 const TAXONOMY_CACHE_MS = 24 * 60 * 60 * 1000;
 const areaSpeciesCache = new Map();
@@ -80,11 +82,31 @@ async function fetchEbird(url, apiKey) {
   for (let attempt = 0; attempt <= EBIRD_MAX_RETRIES; attempt += 1) {
     await waitForEbirdTurn();
 
+    const startedAt = Date.now();
+    logEbirdEvent({
+      event: "request",
+      source: "ebirdService",
+      attempt,
+      url
+    });
+
     const response = await fetch(url, {
       headers: { "X-eBirdApiToken": apiKey }
     });
 
-    if (response.ok) return response.json();
+    if (response.ok) {
+      const payload = await response.json();
+      logEbirdEvent({
+        event: "success",
+        source: "ebirdService",
+        attempt,
+        status: response.status,
+        durationMs: Date.now() - startedAt,
+        rows: Array.isArray(payload) ? payload.length : undefined,
+        url
+      });
+      return payload;
+    }
 
     const body = await response.text();
 
@@ -96,6 +118,15 @@ async function fetchEbird(url, apiKey) {
       console.warn(
         `eBird API ${response.status}; retrying in ${waitMs} ms (${attempt + 1}/${EBIRD_MAX_RETRIES})`
       );
+      logEbirdEvent({
+        event: "retry",
+        source: "ebirdService",
+        attempt,
+        status: response.status,
+        durationMs: Date.now() - startedAt,
+        retryMs: waitMs,
+        url
+      });
       await sleep(waitMs);
       continue;
     }
@@ -104,6 +135,16 @@ async function fetchEbird(url, apiKey) {
       const waitMs = retryDelayMs(response, attempt);
       ebirdCooldownUntil = Math.max(ebirdCooldownUntil, Date.now() + waitMs);
     }
+
+    logEbirdEvent({
+      event: "error",
+      source: "ebirdService",
+      attempt,
+      status: response.status,
+      durationMs: Date.now() - startedAt,
+      body: body.slice(0, 120),
+      url
+    });
 
     const error = new Error(
       `eBird API returned ${response.status}. ${body.slice(0, 300)}`
@@ -121,17 +162,30 @@ async function loadTaxonomy(apiKey) {
   requireKey(apiKey);
 
   if (taxonomyCache && Date.now() - taxonomyCacheAt < TAXONOMY_CACHE_MS) {
+    logEbirdCache({ source: "ebirdService", endpoint: "taxonomy", result: "hit" });
     return taxonomyCache;
+  }
+
+  if (taxonomyInFlight) {
+    logEbirdCache({ source: "ebirdService", endpoint: "taxonomy", result: "in-flight" });
+    return taxonomyInFlight;
   }
 
   const url = new URL(`${EBIRD_BASE}/ref/taxonomy/ebird`);
   url.searchParams.set("fmt", "json");
   url.searchParams.set("locale", "en");
 
-  taxonomyCache = await fetchEbird(url, apiKey);
-  taxonomyCacheAt = Date.now();
+  taxonomyInFlight = fetchEbird(url, apiKey)
+    .then((rows) => {
+      taxonomyCache = rows;
+      taxonomyCacheAt = Date.now();
+      return taxonomyCache;
+    })
+    .finally(() => {
+      taxonomyInFlight = null;
+    });
 
-  return taxonomyCache;
+  return taxonomyInFlight;
 }
 
 const GROUP_STOP_WORDS = new Set([
@@ -327,6 +381,7 @@ async function getAreaSpeciesCodes({ lat, lng, dist = 15, back = 30, apiKey }) {
 
   const cached = areaSpeciesCache.get(cacheKey);
   if (cached && Date.now() - cached.at < AREA_SPECIES_CACHE_MS) {
+    logEbirdCache({ source: "ebirdService", endpoint: "nearby-all-sightings", result: "hit" });
     return cached.codes;
   }
 
@@ -454,6 +509,7 @@ async function getCountrySpeciesCodes({ countryCode, apiKey }) {
   const cached = countrySpeciesCache.get(code);
 
   if (cached && Date.now() - cached.at < COUNTRY_SPECIES_CACHE_MS) {
+    logEbirdCache({ source: "ebirdService", endpoint: "country-species-list", countryCode: code, result: "hit" });
     return cached.codes;
   }
 
@@ -592,6 +648,7 @@ async function getCountryRecentRows({
   const cached = countryRecentCache.get(cacheKey);
 
   if (cached && Date.now() - cached.at < COUNTRY_RECENT_CACHE_MS) {
+    logEbirdCache({ source: "ebirdService", endpoint: "country-recent", countryCode: country, result: "hit" });
     return cached.rows;
   }
 

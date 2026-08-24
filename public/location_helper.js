@@ -44,15 +44,14 @@
   function canShowFindButton() {
     return (
       typeof searchMode !== "undefined" &&
-      searchMode === "bird" &&
-      selectedBird &&
-      selectedBird.kind === "species" &&
-      selectedCountry
+      searchMode === "bird"
     );
   }
 
   function syncFindButton() {
-    findButton.classList.toggle("hidden", !canShowFindButton());
+    const shouldShow = canShowFindButton();
+    findButton.classList.toggle("hidden", !shouldShow);
+    findButton.disabled = !shouldShow || !selectedBird || !selectedCountry;
   }
 
   function openModal() {
@@ -104,6 +103,9 @@
         locationInput.value = selectedLocation.name;
         locationSelectedEl.textContent =
           `${selectedLocation.type} · ${selectedLocation.lat.toFixed(4)}, ${selectedLocation.lng.toFixed(4)}`;
+        if (typeof syncBirdModeLocationControl === "function") {
+          syncBirdModeLocationControl();
+        }
         clear(locationSuggestions);
         closeModal();
         resetResults();
@@ -126,12 +128,7 @@
     }
 
     if (!selectedBird) {
-      setMessage("Please select one bird species first.");
-      return;
-    }
-
-    if (selectedBird.kind === "group") {
-      setMessage("Find the location works with one exact bird only, not a group.");
+      setMessage("Please select one bird or bird group first.");
       return;
     }
 
@@ -147,7 +144,9 @@
 
     const params = new URLSearchParams({
       countryCode: selectedCountry.code || "",
+      kind: selectedBird.kind || "species",
       speciesCode: selectedBird.speciesCode || "",
+      groupKey: selectedBird.groupKey || "",
       back: document.getElementById("back").value
     });
 
@@ -176,8 +175,8 @@
       if (typeof statusEl !== "undefined") statusEl.textContent = "Error";
       if (typeof summaryEl !== "undefined") summaryEl.textContent = error.message;
     } finally {
-      findButton.disabled = false;
       findButton.textContent = "Find the location";
+      syncFindButton();
     }
   }
 

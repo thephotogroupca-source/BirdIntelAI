@@ -136,8 +136,7 @@ function restoreBirdIntelReturnState() {
       birdInput.disabled = false;
       countryInput.disabled = !selectedBird;
       countryInput.placeholder = selectedBird ? "Choose or type a country" : "Select a bird first";
-      locationInput.disabled = !selectedCountry;
-      locationInput.placeholder = selectedCountry ? "Choose or type a location / hotspot" : "Select country first";
+      syncBirdModeLocationControl();
       mandatoryText.textContent = "* Bird, country and location are mandatory in Bird search.";
       modeHelp.textContent = "Choose a bird species or broad group first. Groups are built from eBird taxonomy, for example All Hummingbirds, All Tanagers, All Eagles, All Storks, and All Flamingos.";
     } else {
@@ -247,6 +246,17 @@ function resetLocation() {
   locationInput.value = "";
   locationSelectedEl.textContent = "";
   clear(locationSuggestions);
+}
+
+function syncBirdModeLocationControl() {
+  if (searchMode !== "bird") return;
+
+  locationInput.disabled = true;
+  locationInput.placeholder = selectedLocation
+    ? "Location selected"
+    : selectedCountry
+      ? "Use Find the location"
+      : "Select country first";
 }
 
 function resetBird() {
@@ -420,16 +430,19 @@ function showCountries(rows) {
 
       resetLocation();
 
-      locationInput.disabled = false;
-      locationInput.placeholder =
-        searchMode === "bird"
-          ? "Choose or type a location / hotspot"
-          : "Type a city, area or eBird hotspot";
+      if (searchMode === "bird") {
+        syncBirdModeLocationControl();
+      } else {
+        locationInput.disabled = false;
+        locationInput.placeholder = "Type a city, area or eBird hotspot";
+      }
 
       // Close country suggestions and activate Location without opening it.
       countryRequestId += 1;
       clear(countrySuggestions);
-      locationInput.focus({ preventScroll: true });
+      if (searchMode === "location") {
+        locationInput.focus({ preventScroll: true });
+      }
     };
 
     countrySuggestions.appendChild(button);
@@ -575,6 +588,7 @@ function showBirds(rows) {
         countryInput.disabled = false;
         countryInput.placeholder =
           "Choose or type a country";
+        syncBirdModeLocationControl();
 
         countryInput.focus();
       }
@@ -634,6 +648,7 @@ async function loadCountrySuggestions(query = "") {
 
 async function loadLocationSuggestions(query = "") {
   const requestId = ++locationRequestId;
+  if (searchMode === "bird") return clear(locationSuggestions);
   if (!selectedCountry) return clear(locationSuggestions);
 
   if (!query && searchMode !== "bird") {
@@ -680,6 +695,7 @@ countryInput.addEventListener("input", () => {
 
   locationInput.disabled = true;
   locationInput.placeholder = "Select country first";
+  syncBirdModeLocationControl();
 
   if (searchMode === "location") {
     resetBird();
@@ -705,6 +721,13 @@ countryInput.addEventListener("input", () => {
 
 locationInput.addEventListener("input", () => {
   locationRequestId += 1;
+
+  if (searchMode === "bird") {
+    locationInput.value = selectedLocation?.name || "";
+    syncBirdModeLocationControl();
+    return clear(locationSuggestions);
+  }
+
   selectedLocation = null;
   locationSelectedEl.textContent = "";
 
@@ -742,10 +765,10 @@ locationInput.addEventListener("focus", () => {
 
 $("back").addEventListener("change", () => {
   if (searchMode !== "bird" || !selectedBird) return;
-  resetCountry();
   resetLocation();
   countryInput.disabled = false;
   countryInput.placeholder = "Choose or type a country";
+  syncBirdModeLocationControl();
   clear(countrySuggestions);
 });
 
@@ -759,6 +782,7 @@ birdInput.addEventListener("input", () => {
 
     countryInput.disabled = true;
     countryInput.placeholder = "Select a bird first";
+    syncBirdModeLocationControl();
   }
 
   clearTimeout(birdTimer);
