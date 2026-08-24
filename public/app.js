@@ -55,6 +55,7 @@ let locationTimer;
 let birdTimer;
 let countryRequestId = 0;
 let locationRequestId = 0;
+let locationAbortController = null;
 
 const BIRD_INTEL_RETURN_PREFIX = "birdIntel.returnState.v11_6.";
 
@@ -655,6 +656,11 @@ async function loadLocationSuggestions(query = "") {
     return clear(locationSuggestions);
   }
 
+  if (locationAbortController) {
+    locationAbortController.abort();
+  }
+  locationAbortController = new AbortController();
+
   try {
     if (!query) {
       showMessage(locationSuggestions, "Loading recent locations...");
@@ -674,13 +680,16 @@ async function loadLocationSuggestions(query = "") {
       params.set("groupKey", selectedBird.groupKey || "");
     }
 
-    const response = await fetch(`/api/locations?${params}`);
+    const response = await fetch(`/api/locations?${params}`, {
+      signal: locationAbortController.signal
+    });
     const payload = await response.json();
     if (requestId !== locationRequestId) return;
     if (!payload.ok) throw new Error(payload.error);
     if (locationInput.value.trim().toLowerCase() !== query.trim().toLowerCase()) return;
     showLocations(payload.locations);
   } catch (error) {
+    if (error?.name === "AbortError") return;
     if (requestId !== locationRequestId) return;
     showMessage(locationSuggestions, error.message);
   }
@@ -744,13 +753,13 @@ locationInput.addEventListener("input", () => {
 
   const q = locationInput.value.trim();
 
-  if (q.length < 2 || !selectedCountry) {
+  if (q.length < 3 || !selectedCountry) {
     return clear(locationSuggestions);
   }
 
   locationTimer = setTimeout(() => {
     loadLocationSuggestions(q);
-  }, 300);
+  }, 800);
 });
 
 countryInput.addEventListener("focus", () => {
