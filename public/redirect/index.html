@@ -76,7 +76,59 @@
     <footer>Real Wildlife. Real Experience. Trusted Knowledge.</footer>
   </main>
   <script>
-    // Standalone static page, no server, analytics keys, or login required.
+    // Anonymous analytics go through the existing WKH server, never directly to Supabase.
+    // A failed request must never delay or prevent the existing redirect.
+    const analyticsEndpoint = 'https://wildlifeknowledgehub.com/admin/api/analytics/event';
+    function newAnonymousId(prefix) {
+      return `${prefix}_${window.crypto.randomUUID()}`;
+    }
+    function storedAnonymousId(storageName, key, prefix) {
+      try {
+        const storage = window[storageName];
+        const value = storage.getItem(key);
+        if (value && new RegExp(`^${prefix}_[0-9a-f-]{36}$`, 'i').test(value)) return value;
+        const created = newAnonymousId(prefix);
+        storage.setItem(key, created);
+        return created;
+      } catch (_) {
+        try { return newAnonymousId(prefix); } catch (_) { return null; }
+      }
+    }
+    const visitorId = storedAnonymousId('localStorage', 'wkh_birdintelai_visitor', 'v');
+    const sessionId = storedAnonymousId('sessionStorage', 'wkh_birdintelai_session', 's');
+    function trackLegacyEvent(eventType, fields = {}) {
+      if (!visitorId || !sessionId) return;
+      const payload = {
+        eventType,
+        sourceModule: 'birdintelai',
+        visitorId,
+        sessionId,
+        pagePath: window.location.pathname || '/',
+        pageTitle: document.title,
+        ...fields
+      };
+      try {
+        fetch(analyticsEndpoint, {
+          method: 'POST',
+          mode: 'cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          keepalive: true
+        }).catch(() => {});
+      } catch (_) { /* Analytics must not affect navigation. */ }
+    }
+    trackLegacyEvent('page_view', { details: { entry: 'legacy_static' } });
+    document.querySelectorAll('a[href^="https://wildlifeknowledgehub.com/bird/"]').forEach((link) => {
+      link.addEventListener('click', () => {
+        trackLegacyEvent('click', {
+          action: 'navigate',
+          targetType: 'a',
+          targetId: link.classList.contains('action') ? 'exploreNewBirdIntel' : 'newBirdIntelLink',
+          nextPath: '/bird/'
+        });
+      });
+    });
+
     // The UTM parameters identify referrals from this legacy URL if the destination captures them.
     const destination = 'https://wildlifeknowledgehub.com/bird/?utm_source=birdintelai&utm_medium=legacy_redirect&utm_campaign=bird_intel_new_home';
     const countdown = document.getElementById('countdown');
